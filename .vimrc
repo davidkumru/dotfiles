@@ -36,6 +36,7 @@ set showcmd
 set wildmenu
 set wildmode=list:longest,list:full
 set hidden
+set background=dark
 autocmd CompleteDone * pclose
 
 " escape
