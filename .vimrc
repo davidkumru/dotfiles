@@ -1,6 +1,6 @@
 " vim-plug
 call plug#begin()
-Plug 'nanotech/jellybeans.vim'
+Plug 'chriskempson/base16-vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'Valloric/YouCompleteMe'
 Plug 'scrooloose/syntastic'
@@ -12,7 +12,7 @@ call plug#end()
 let mapleader="\<space>"
 
 " plugin settings
-colorscheme jellybeans
+colorscheme base16-default
 nnoremap <leader>p :CtrlPBuffer<cr>
 let g:syntastic_python_checkers=['flake8']
 let g:syntastic_always_populate_loc_list=1
