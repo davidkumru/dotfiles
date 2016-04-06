@@ -2,6 +2,7 @@
 call plug#begin()
 Plug 'chriskempson/base16-vim'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'christoomey/vim-tmux-navigator'
 Plug 'Valloric/YouCompleteMe'
 Plug 'scrooloose/syntastic'
 Plug 'easymotion/vim-easymotion'
@@ -60,15 +61,18 @@ nnoremap <leader>\ :bd!<cr>
 " nnoremap <leader>|
 
 " windows
-nnoremap <left> <c-w>h
-nnoremap <down> <c-w>j
-nnoremap <up> <c-w>k
-nnoremap <right> <c-w>l
-nnoremap <s-left> <c-w>H
-nnoremap <s-down> <c-w>J
-nnoremap <s-up> <c-w>K
-nnoremap <s-right> <c-w>L
-nnoremap <c-down> <c-w>s
-nnoremap <c-right> <c-w>v
+nnoremap <down> <c-w>s
+nnoremap <right> <c-w>v
+
+" nnoremap <left> <c-w>h
+" nnoremap <down> <c-w>j
+" nnoremap <up> <c-w>k
+" nnoremap <right> <c-w>l
+" nnoremap <s-left> <c-w>H
+" nnoremap <s-down> <c-w>J
+" nnoremap <s-up> <c-w>K
+" nnoremap <s-right> <c-w>L
+" nnoremap <c-down> <c-w>s
+" nnoremap <c-right> <c-w>v
 " nnoremap <c-left>
 " nnoremap <c-up>

@@ -11,12 +11,14 @@ alias p="cd -"
 
 alias soft="xdg-open ~/Dropbox/Files/Software/Software.ods"
 
-# alias vimd="cd ~/Project && vim"
-# alias app="cd ~/Project && . venv/bin/activate"
-# alias run="python manage.py runserver"
-
 cd() { builtin cd "$@" && ls; }
 
 alias sd="sudo shutdown -h now"
 alias rs="sudo shutdown -r now"
 alias lo="xfce4-session-logout --logout --fast"
+
+alias tmuxn="tmux new -s"
+alias tmuxa="tmux a -t"
+alias tmuxd="tmux d -t"
+alias tmuxl="tmux ls"
+alias tmuxk="tmux kill-session -t"
