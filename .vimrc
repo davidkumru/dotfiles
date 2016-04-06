@@ -3,7 +3,7 @@ call plug#begin()
 Plug 'chriskempson/base16-vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'Valloric/YouCompleteMe'
+Plug 'valloric/youcompleteme'
 Plug 'scrooloose/syntastic'
 Plug 'easymotion/vim-easymotion'
 Plug 'osyo-manga/vim-over'
