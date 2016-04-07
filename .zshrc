@@ -58,5 +58,5 @@ alias tmuxa="tmux a -t"
 alias tmuxl="tmux ls"
 alias tmuxk="tmux kill-session -t"
 
-# ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
-# source /home/david/zshtemp/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
+source /home/david/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
