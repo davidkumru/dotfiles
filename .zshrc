@@ -30,6 +30,7 @@ bindkey '\eOB' down-line-or-beginning-search
 #bashrc settings
 alias loadzsh="source ~/.zshrc"
 alias zshrc="vim ~/.zshrc"
+alias bashrc="vim ~/.bashrc"
 alias vimrc="vim ~/.vimrc"
 alias tmuxc="vim ~/.tmux.conf"
 alias profile="vim ~/.profile"
@@ -54,7 +55,6 @@ alias lo="xfce4-session-logout --logout --fast"
 
 alias tmuxn="tmux new -s"
 alias tmuxa="tmux a -t"
-alias tmuxd="tmux d -t"
 alias tmuxl="tmux ls"
 alias tmuxk="tmux kill-session -t"
 
