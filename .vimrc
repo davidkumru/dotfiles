@@ -13,6 +13,9 @@ call plug#end()
 let mapleader="\<space>"
 
 " plugin settings
+set background=dark
+set t_Co=256
+let base16colorspace=256
 colorscheme base16-default
 nnoremap <leader>p :CtrlPBuffer<cr>
 let g:syntastic_python_checkers=['flake8']
@@ -37,8 +40,6 @@ set showcmd
 set wildmenu
 set wildmode=list:longest,list:full
 set hidden
-set t_Co=256
-set background=dark
 autocmd CompleteDone * pclose
 
 " escape
