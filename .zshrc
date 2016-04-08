@@ -34,6 +34,7 @@ alias bashrc="vim ~/.bashrc"
 alias vimrc="vim ~/.vimrc"
 alias tmuxc="vim ~/.tmux.conf"
 alias profile="vim ~/.profile"
+alias soft="xdg-open ~/Dropbox/Files/Software/Software.ods"
 
 alias update="sudo apt-get update && sudo apt-get upgrade"
 alias install="sudo apt-get install"
@@ -44,10 +45,7 @@ alias f="find . -iname"
 alias u="cd .."
 alias p="cd -"
 alias :q="exit"
-
 cd() { builtin cd "$@" && ls; }
-
-alias soft="xdg-open ~/Dropbox/Files/Software/Software.ods"
 
 alias sd="sudo shutdown -h now"
 alias rs="sudo shutdown -r now"

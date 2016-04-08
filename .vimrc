@@ -51,8 +51,8 @@ nnoremap <leader>/ *
 nnoremap <leader>? #
 nnoremap <cr> :
 " nnoremap <leader><cr>
-nnoremap <leader>A ggVG
 " nnoremap <leader>a
+nnoremap <leader>A ggVG
 
 " buffers
 nnoremap <bs> :b#<cr>
