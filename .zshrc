@@ -27,7 +27,6 @@ zle -N down-line-or-beginning-search
 bindkey '\eOA' up-line-or-beginning-search
 bindkey '\eOB' down-line-or-beginning-search
 
-#bashrc settings
 alias loadzsh="source ~/.zshrc"
 alias zshrc="vim ~/.zshrc"
 alias bashrc="vim ~/.bashrc"
