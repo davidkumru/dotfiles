@@ -13,6 +13,7 @@ compinit
 
 PS1="%~ %% "
 
+export TERM="xterm-256color"
 setopt autocd
 setopt correctall
 setopt histignoredups
