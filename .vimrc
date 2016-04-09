@@ -59,10 +59,11 @@ nnoremap <leader>o o<esc>
 nnoremap <leader>O O<esc>
 
 " buffers
-nnoremap <bs> :b#<cr>
-" nnoremap <leader><bs>
-nnoremap \ :bd<cr>
-nnoremap <leader>\ :bd!<cr>
+nnoremap <bs> :bd<cr>
+nnoremap <leader><bs> :bd!<cr>
+nnoremap \ :b#<cr>
+" nnoremap <leader>\
+" nnoremap |
 " nnoremap <leader>|
 
 " windows
