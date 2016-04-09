@@ -14,6 +14,7 @@ compinit
 PS1="%~ %% "
 
 export TERM="xterm-256color"
+export KEYTIMEOUT=1
 setopt autocd
 setopt correctall
 setopt histignoredups

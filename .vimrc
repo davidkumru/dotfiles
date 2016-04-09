@@ -40,6 +40,7 @@ set showcmd
 set wildmenu
 set wildmode=list:longest,list:full
 set hidden
+set ttimeoutlen=0
 autocmd CompleteDone * pclose
 
 " escape
@@ -54,6 +55,8 @@ nnoremap <cr> :
 " nnoremap <leader><cr>
 " nnoremap <leader>a
 nnoremap <leader>A ggVG
+nnoremap <leader>o o<esc>
+nnoremap <leader>O O<esc>
 
 " buffers
 nnoremap <bs> :b#<cr>
