@@ -2,6 +2,7 @@
 call plug#begin()
 Plug 'chriskempson/base16-vim'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'valloric/youcompleteme'
 Plug 'scrooloose/syntastic'
@@ -18,8 +19,11 @@ set t_Co=256
 let base16colorspace=256
 colorscheme base16-default
 nnoremap <leader>p :CtrlPBuffer<cr>
+let g:syntastic_ruby_checkers=['rubocop']
 let g:syntastic_python_checkers=['flake8']
 let g:syntastic_always_populate_loc_list=1
+nnoremap <leader>t :NERDTreeToggle<cr>
+nnoremap <leader>f :NERDTreeFind<cr>
 map <tab> <Plug>(easymotion-prefix)
 " map <s-tab>
 " map <leader><tab>
