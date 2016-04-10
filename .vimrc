@@ -71,8 +71,8 @@ nnoremap \ :b#<cr>
 " nnoremap <leader>|
 
 " windows
-nnoremap <s-down> <c-w>s
-nnoremap <s-right> <c-w>v
+nnoremap <leader><down> <c-w>s
+nnoremap <leader><right> <c-w>v
 
 " nnoremap <left> <c-w>h
 " nnoremap <down> <c-w>j
