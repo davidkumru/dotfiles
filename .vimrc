@@ -45,6 +45,9 @@ set wildmenu
 set wildmode=list:longest,list:full
 set hidden
 set ttimeoutlen=0
+set tabstop=4
+set shiftwidth=4
+set expandtab
 autocmd CompleteDone * pclose
 
 " escape
