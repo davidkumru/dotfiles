@@ -23,6 +23,7 @@ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 # export PATH="$HOME/.rbenv/bin:$PATH"
 # eval "$(rbenv init -)"
 # or zshrc?
+source ~/.bashrc
 
 rbenv install 2.3.0
 rbenv global 2.3.0
