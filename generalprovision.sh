@@ -9,7 +9,7 @@ echo "--- Upgrading..."
 apt-get -y upgrade
 
 echo "--- Installing..."
-apt-get -y install git
+apt-get -y install git htop
 
 echo "--- Autoremoving..."
 apt-get -y autoremove

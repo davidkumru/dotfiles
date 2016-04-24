@@ -10,7 +10,8 @@ echo "--- Cloning dotfiles and syntax highlighting..."
 git clone https://github.com/davidkumru/dotfiles.git ~/dotfiles
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/zsh/zsh-syntax-highlighting
 
-echo "--- Creating symlink..."
+echo "--- Creating symlink and removing .bashrc..."
 ln -s ~/dotfiles/.zshrc ~/.zshrc
+rm ~/.bashrc
 
 echo "--- Finished..."
