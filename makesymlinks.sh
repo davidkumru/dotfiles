@@ -1,34 +1,35 @@
 #!/bin/bash
 
 # .make.sh
-# This script creates symlinks from a directory to any desired dotfiles in ~/dotfiles
 
 dir=~/dotfiles
 olddir=~/dotfiles_old
+vagrantdir=~/vagrant
 files=".bashrc .zshrc .profile .vimrc .tmux.conf"
 vagrant="Vagrantfile"
 
-##########
-
-echo -n "Creating $olddir for backup of any existing dotfiles in ~"
+echo "Creating $olddir"
 mkdir -p $olddir
 echo "done"
 
-echo -n "Changing to the $dir directory"
+echo "Creating $vagrantdir"
+mkdir -p $vagrantdir
+echo "done"
+
+echo "Changing to $dir directory"
 cd $dir
 echo "done"
 
-# move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks from the target directories to any files in the ~/dotfiles directory specified in the variables
 for file in $files; do
-    echo "Moving any existing dotfiles to $olddir"
-    mv ~/$file ~/dotfiles_old/
+    echo "Moving existing file to $olddir"
+    mv ~/$file $olddir
     echo "Creating symlink to $file"
     ln -s $dir/$file ~/$file
 done
 
 for file in $vagrant; do
-    echo "Moving any existing dotfiles to $olddir"
-    mv ~/vagrant/$file ~/dotfiles_old/
+    echo "Moving existing file to $olddir"
+    mv $vagrantdir/$file $olddir
     echo "Creating symlink to $file"
-    ln -s $dir/$file ~/vagrant/$file
+    ln -s $dir/$file $vagrantdir/$file
 done
