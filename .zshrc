@@ -44,6 +44,7 @@ alias ls='ls --color=auto --group-directories-first'
 alias cl="clear"
 alias o="xdg-open"
 alias f="find . -iname"
+alias rmd="rm -rf"
 alias u="cd .."
 alias p="cd -"
 alias :q="exit"
