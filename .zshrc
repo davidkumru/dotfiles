@@ -11,7 +11,7 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-PS1="%~ %% "
+PS1="%B%n%b %~ %% "
 
 export TERM="xterm-256color"
 export KEYTIMEOUT=1
