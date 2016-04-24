@@ -59,7 +59,7 @@ alias tmuxl="tmux ls"
 alias tmuxk="tmux kill-session -t"
 
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
-source /home/david/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 BASE16_SHELL="$HOME/.config/base16-shell/base16-default.dark.sh"
 [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
