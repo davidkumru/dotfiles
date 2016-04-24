@@ -15,6 +15,6 @@ echo "--- Autoremoving..."
 apt-get -y autoremove
 
 echo "--- Cloning dotfiles..."
-# needed?
+git clone https://github.com/davidkumru/dotfiles.git ~/dotfiles
 
 echo "--- Finished..."
