@@ -37,11 +37,17 @@ alias tmuxc="vim ~/.tmux.conf"
 alias profile="vim ~/.profile"
 alias soft="xdg-open ~/Dropbox/Files/Software/Software.ods"
 
+# apt-get
 alias update="sudo apt-get update && sudo apt-get upgrade"
 alias install="sudo apt-get install"
 
+# ruby
 alias rails serverb="rails server -b 0.0.0.0"
 
+# npm
+alias live-server="live-server --no-browser"
+
+# navigation
 alias ls='ls --color=auto --group-directories-first'
 alias cl="clear"
 alias o="xdg-open"
