@@ -11,8 +11,10 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+# prompt
 PS1="%B%n%b %~ %% "
 
+# options
 export TERM="xterm-256color"
 export KEYTIMEOUT=1
 setopt autocd
@@ -22,6 +24,7 @@ setopt noclobber
 setopt globdots
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 
+# history
 autoload -Uz up-line-or-beginning-search
 autoload -Uz down-line-or-beginning-search
 zle -N up-line-or-beginning-search
@@ -29,23 +32,14 @@ zle -N down-line-or-beginning-search
 bindkey '\eOA' up-line-or-beginning-search
 bindkey '\eOB' down-line-or-beginning-search
 
-alias loadzsh="source ~/.zshrc"
-alias zshrc="vim ~/.zshrc"
-alias bashrc="vim ~/.bashrc"
-alias vimrc="vim ~/.vimrc"
-alias tmuxc="vim ~/.tmux.conf"
-alias profile="vim ~/.profile"
-alias soft="xdg-open ~/Dropbox/Files/Software/Software.ods"
+# system
+alias sd="sudo shutdown -h now"
+alias rs="sudo shutdown -r now"
+alias lo="xfce4-session-logout --logout --fast"
 
 # apt-get
 alias update="sudo apt-get update && sudo apt-get upgrade"
 alias install="sudo apt-get install"
-
-# ruby
-alias rails serverb="rails server -b 0.0.0.0"
-
-# npm
-alias live-server="live-server --no-browser"
 
 # navigation
 alias ls='ls --color=auto --group-directories-first'
@@ -58,20 +52,35 @@ alias p="cd -"
 alias :q="exit"
 cd() { builtin cd "$@" && ls; }
 
-alias sd="sudo shutdown -h now"
-alias rs="sudo shutdown -r now"
-alias lo="xfce4-session-logout --logout --fast"
+# dotfiles
+alias loadzsh="source ~/.zshrc"
+alias zshrc="vim ~/.zshrc"
+alias bashrc="vim ~/.bashrc"
+alias vimrc="vim ~/.vimrc"
+alias tmuxc="vim ~/.tmux.conf"
+alias profile="vim ~/.profile"
+alias soft="xdg-open ~/Dropbox/Files/Software/Software.ods"
 
+# tmux
 alias tmuxn="tmux new -s"
 alias tmuxa="tmux a -t"
 alias tmuxl="tmux ls"
 alias tmuxk="tmux kill-session -t"
 
+# npm
+alias live-server="live-server --no-browser"
+
+# ruby
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
+# rails
+alias rails serverb="rails server -b 0.0.0.0"
+
+# packages
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# base16
 BASE16_SHELL="$HOME/.config/base16-shell/base16-default.dark.sh"
 [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
-
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"

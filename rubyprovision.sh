@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+echo "--- Installing Node.js packages..."
+sudo npm install -g live-server
+
 echo "--- Installing Ruby..."
 sudo apt-get -y install libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev
 
@@ -16,6 +19,5 @@ rbenv global 2.3.0
 
 echo "--- Installing Rails..."
 gem install rails -v 4.2.6
-sudo npm install -g live-server
 
 echo "--- Finished..."

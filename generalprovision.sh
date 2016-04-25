@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-echo "--- Provisioning..."
-
 echo "--- Updating..."
 apt-get update
 
