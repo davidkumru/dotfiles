@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-echo "--- Installing Node.js packages..."
+echo "--- Installing Node.js and npm packages..."
+sudo apt-get -y install nodejs nodejs-legacy npm
 sudo npm install -g live-server
 
 echo "--- Installing Ruby..."

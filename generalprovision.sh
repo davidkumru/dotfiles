@@ -7,7 +7,7 @@ echo "--- Upgrading..."
 apt-get -y upgrade
 
 echo "--- Installing..."
-apt-get -y install htop git nodejs nodejs-legacy npm
+apt-get -y install htop git
 
 echo "--- Autoremoving..."
 apt-get -y autoremove
