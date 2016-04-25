@@ -19,6 +19,7 @@ set t_Co=256
 let base16colorspace=256
 colorscheme base16-default
 nnoremap <leader>p :CtrlPBuffer<cr>
+let g:syntastic_javascript_checkers=['eslint']
 let g:syntastic_ruby_checkers=['rubocop']
 let g:syntastic_python_checkers=['flake8']
 let g:syntastic_always_populate_loc_list=1
