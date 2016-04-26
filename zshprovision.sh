@@ -8,10 +8,12 @@ sudo chsh -s $(which zsh) vagrant
 
 echo "--- Cloning dotfiles and syntax highlighting..."
 git clone https://github.com/davidkumru/dotfiles.git ~/dotfiles
+cd ~/dotfiles
+./makesymlinks.sh
+
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting
 
 echo "--- Creating symlink and removing .bashrc..."
 ln -s ~/dotfiles/.zshrc ~/.zshrc
-rm ~/.bashrc
 
 echo "--- Finished..."

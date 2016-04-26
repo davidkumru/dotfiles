@@ -71,6 +71,7 @@ Vagrant.configure(2) do |config|
   config.vm.provision "shell", path: "~/dotfiles/webprovision.sh", privileged: false
   config.vm.provision "shell", path: "~/dotfiles/zshprovision.sh", privileged: false
   config.vm.provision "shell", path: "~/dotfiles/vimprovision.sh", privileged: false
+  config.vm.provision "shell", path: "~/dotfiles/cleaningprovision.sh", privileged: false
   #   sudo apt-get update
   #   sudo apt-get install -y apache2
   # SHELL

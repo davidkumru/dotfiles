@@ -59,7 +59,7 @@ nnoremap <leader><esc> :noh<cr>
 " operations
 nnoremap <leader>/ *
 nnoremap <leader>? #
-nnoremap <cr> :
+" nnoremap <cr>
 " nnoremap <leader><cr>
 " nnoremap <leader>a
 nnoremap <leader>A ggVG
