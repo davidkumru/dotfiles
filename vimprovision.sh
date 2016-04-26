@@ -12,7 +12,7 @@ echo "--- Installing YouCompleteMe..."
 sudo apt-get -y install build-essential cmake
 sudo apt-get -y install python-dev python3-dev
 
-# after :PlugInstall
+# after :PlugInstall. make sure virtual machine has sufficient memory
 # cd ~/.vim/plugged/youcompleteme
 # ./install.py --tern-completer
 
