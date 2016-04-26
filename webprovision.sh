@@ -15,10 +15,13 @@ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 source ~/.bashrc
 
-rbenv install 2.3.0
-rbenv global 2.3.0
+# rbenv install 2.3.0
+# rbenv global 2.3.0
+# 
+# echo "--- Installing Rails..."
+# gem install rails -v 4.2.6
 
-echo "--- Installing Rails..."
-gem install rails -v 4.2.6
+echo "--- Installing Python..."
+sudo apt-get -y install python-pip
 
 echo "--- Finished..."

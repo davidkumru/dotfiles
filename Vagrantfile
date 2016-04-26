@@ -12,8 +12,8 @@ Vagrant.configure(2) do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
-  # config.vm.box = "ubuntu/trusty64"
-  config.vm.box = "web-04-16"
+  config.vm.box = "ubuntu/trusty64"
+  # config.vm.box = "web-04-16"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
@@ -49,7 +49,8 @@ Vagrant.configure(2) do |config|
   #   vb.gui = true
   #
   #   # Customize the amount of memory on the VM:
-  vb.memory = "1024"
+  # vb.memory = "1024"
+  vb.memory = "2048"
   vb.cpus = "2"
   end
   #
@@ -69,6 +70,7 @@ Vagrant.configure(2) do |config|
   config.vm.provision "shell", path: "~/dotfiles/generalprovision.sh"
   config.vm.provision "shell", path: "~/dotfiles/webprovision.sh", privileged: false
   config.vm.provision "shell", path: "~/dotfiles/zshprovision.sh", privileged: false
+  config.vm.provision "shell", path: "~/dotfiles/vimprovision.sh", privileged: false
   #   sudo apt-get update
   #   sudo apt-get install -y apache2
   # SHELL

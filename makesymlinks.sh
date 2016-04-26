@@ -5,7 +5,7 @@
 dir=~/dotfiles
 olddir=~/dotfiles_old
 vagrantdir=~/vagrant
-files=".bashrc .zshrc .profile .vimrc .tmux.conf"
+files=".zshrc .profile .vimrc .tmux.conf"
 vagrant="Vagrantfile"
 
 echo "Creating $olddir"

@@ -6,7 +6,7 @@ apt-get update
 echo "--- Upgrading..."
 apt-get -y upgrade
 
-echo "--- Installing..."
+echo "--- Installing system applications..."
 apt-get -y install htop git
 
 echo "--- Autoremoving..."
