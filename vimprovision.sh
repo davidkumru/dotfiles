@@ -13,8 +13,7 @@ sudo apt-get -y install build-essential cmake
 sudo apt-get -y install python-dev python3-dev
 
 # after :PlugInstall. make sure virtual machine has sufficient memory
-# cd ~/.vim/plugged/youcompleteme
-# ./install.py --tern-completer
+# ~/.vim/plugged/youcompleteme/./install.py --tern-completer
 
 echo "--- Installing Syntastic..."
 
@@ -23,5 +22,8 @@ sudo npm install -g eslint
 gem install rubocop
 
 sudo pip install flake8
+
+echo "--- Creating symlink..."
+ln -s ~/dotfiles/.vimrc ~/.vimrc
 
 echo "--- Finished..."
