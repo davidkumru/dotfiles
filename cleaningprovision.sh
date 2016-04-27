@@ -3,7 +3,6 @@
 echo "--- Cleaning up..."
 rm ~/.bashrc
 rm -rf ~/tmp
-rm -rf ~/vagrant
 
 echo "--- Autoremoving..."
 sudo apt-get -y autoremove

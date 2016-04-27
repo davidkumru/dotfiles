@@ -14,16 +14,15 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | b
 source ~/.bashrc
 
 nvm install node
-
-# sudo apt-get -y install nodejs nodejs-legacy npm
 npm install -g live-server
 
 echo "--- Installing Ruby and Rails..."
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 
-echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
-echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 source ~/.bashrc
 
 # rbenv install 2.3.1
@@ -32,7 +31,7 @@ source ~/.bashrc
 # echo "--- Installing Rails..."
 # gem install rails -v 4.2.6
 
-echo "--- Installing Python..."
+# echo "--- Installing Python..."
 # sudo apt-get -y install python-pip
 
 echo "--- Finished..."
