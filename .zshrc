@@ -70,12 +70,16 @@ alias tmuxk="tmux kill-session -t"
 # npm
 alias live-server="live-server --no-browser"
 
-# ruby
+# rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 # rails
 alias rails serverb="rails server -b 0.0.0.0"
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
 # packages
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)

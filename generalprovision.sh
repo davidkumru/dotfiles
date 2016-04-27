@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
 echo "--- Updating..."
-apt-get update
+# apt-get update
 
 echo "--- Upgrading..."
-apt-get -y upgrade
+# apt-get -y upgrade
 
 echo "--- Installing system applications..."
-apt-get -y install htop git
+apt-get -y install htop git curl
 
 echo "--- Finished..."
