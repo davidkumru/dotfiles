@@ -51,6 +51,7 @@ alias u="cd .."
 alias p="cd -"
 alias :q="exit"
 cd() { builtin cd "$@" && ls; }
+alias tree="tree -L 2 -C --dirsfirst --noreport"
 
 # dotfiles
 alias loadzsh="source ~/.zshrc"
