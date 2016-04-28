@@ -14,12 +14,4 @@ sudo apt-get -y install python-dev python3-dev
 # after :PlugInstall. make sure virtual machine has sufficient memory
 # ~/.vim/plugged/youcompleteme/./install.py --tern-completer
 
-echo "--- Installing Syntastic..."
-
-npm install -g eslint
-
-gem install rubocop
-
-# sudo pip install flake8
-
 echo "--- Finished..."

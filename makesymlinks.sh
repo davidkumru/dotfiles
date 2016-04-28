@@ -3,7 +3,7 @@
 # .make.sh
 
 dir=~/dotfiles
-olddir=~/dotfiles_old
+olddir=~/.dotfiles_old
 vagrantdir=~/vagrant
 files=".zshrc .profile .vimrc .tmux.conf"
 vagrant="Vagrantfile"

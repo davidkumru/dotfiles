@@ -14,6 +14,7 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | b
 source ~/.bashrc
 
 nvm install node
+npm install -g eslint
 npm install -g live-server
 
 echo "--- Installing Ruby and Rails..."
@@ -27,11 +28,13 @@ source ~/.bashrc
 
 # rbenv install 2.3.1
 # rbenv global 2.3.1
-# 
+# gem install rubocop
+#
 # echo "--- Installing Rails..."
 # gem install rails -v 4.2.6
 
 # echo "--- Installing Python..."
 # sudo apt-get -y install python-pip
+# sudo pip install flake8
 
 echo "--- Finished..."
