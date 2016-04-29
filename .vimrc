@@ -75,6 +75,8 @@ nnoremap \ :b#<cr>
 " nnoremap <leader>|
 
 " windows
+nnoremap <leader>j <c-w>s
+nnoremap <leader>l <c-w>v
 " nnoremap <left> <c-w>h
 " nnoremap <down> <c-w>j
 " nnoremap <up> <c-w>k
@@ -83,7 +85,7 @@ nnoremap \ :b#<cr>
 " nnoremap <s-down> <c-w>J
 " nnoremap <s-up> <c-w>K
 " nnoremap <s-right> <c-w>L
-" nnoremap <c-down> <c-w>s
-" nnoremap <c-right> <c-w>v
 " nnoremap <c-left>
+" nnoremap <c-down>
 " nnoremap <c-up>
+" nnoremap <c-right>
