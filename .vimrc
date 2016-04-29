@@ -1,6 +1,6 @@
 " vim-plug
 call plug#begin()
-Plug 'chriskempson/base16-vim'
+Plug 'tomasr/molokai'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
@@ -14,10 +14,9 @@ call plug#end()
 let mapleader="\<space>"
 
 " plugin settings
-set background=dark
-set t_Co=256
-let base16colorspace=256
-colorscheme base16-default
+" set t_Co=256
+set t_ut=
+colorscheme molokai
 nnoremap <leader>p :CtrlPBuffer<cr>
 let g:syntastic_javascript_checkers=['eslint']
 let g:syntastic_ruby_checkers=['rubocop']
