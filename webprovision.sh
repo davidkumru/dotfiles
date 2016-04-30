@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 
-echo "--- Installing Prerequisites..."
-sudo apt-get -y install build-essential libssl-dev
-sudo apt-get -y install libreadline-dev zlib1g-dev libsqlite3-dev
-
 echo "--- Installing Node.js and npm..."
+echo "--- Installing prerequisites..."
+sudo apt-get -y install build-essential libssl-dev
+
 rm ~/.bashrc
 echo 'export NVM_DIR="$HOME/.nvm"' >> ~/.bashrc
 echo '[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"' >> ~/.bashrc
@@ -18,6 +17,9 @@ npm install -g eslint
 npm install -g live-server
 
 echo "--- Installing Ruby and Rails..."
+echo "--- Installing prerequisites..."
+sudo apt-get -y install libreadline-dev zlib1g-dev libsqlite3-dev
+
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 

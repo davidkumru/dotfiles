@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# .make.sh
-
 dir=~/dotfiles
 olddir=~/.dotfiles_old
 vagrantdir=~/vagrant
