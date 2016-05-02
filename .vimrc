@@ -6,6 +6,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'valloric/youcompleteme'
 Plug 'scrooloose/syntastic'
+Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'osyo-manga/vim-over'
 call plug#end()
@@ -48,6 +49,8 @@ set ttimeoutlen=0
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set pastetoggle=<F10>
+hi MatchParen cterm=underline ctermbg=none ctermfg=none
 autocmd CompleteDone * pclose
 
 " escape
@@ -74,8 +77,8 @@ nnoremap \ :b#<cr>
 " nnoremap <leader>|
 
 " windows
-nnoremap <leader>j <c-w>s
-nnoremap <leader>l <c-w>v
+nnoremap <leader>j <c-w>s <c-w>j
+nnoremap <leader>l <c-w>v <c-w>l
 " nnoremap <left> <c-w>h
 " nnoremap <down> <c-w>j
 " nnoremap <up> <c-w>k
