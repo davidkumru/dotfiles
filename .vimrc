@@ -4,7 +4,7 @@ Plug 'tomasr/molokai'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'valloric/youcompleteme'
+Plug 'valloric/youcompleteme', { 'do': './install.py --tern-completer' }
 Plug 'scrooloose/syntastic'
 Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'easymotion/vim-easymotion'
