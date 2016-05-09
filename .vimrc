@@ -1,12 +1,11 @@
 " vim-plug
 call plug#begin()
-Plug 'tomasr/molokai'
+Plug 'nanotech/jellybeans.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'valloric/youcompleteme', { 'do': './install.py --tern-completer' }
 Plug 'scrooloose/syntastic'
-Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'osyo-manga/vim-over'
 call plug#end()
@@ -16,8 +15,8 @@ let mapleader="\<space>"
 
 " plugin settings
 " set t_Co=256
-set t_ut=
-colorscheme molokai
+" set t_ut=
+colorscheme jellybeans
 nnoremap <leader>p :CtrlPBuffer<cr>
 let g:syntastic_javascript_checkers=['eslint']
 let g:syntastic_ruby_checkers=['rubocop']
@@ -50,7 +49,7 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set pastetoggle=<F10>
-hi MatchParen cterm=underline ctermbg=none ctermfg=none
+" hi MatchParen cterm=underline ctermbg=none ctermfg=none
 autocmd CompleteDone * pclose
 
 " escape
