@@ -28,12 +28,12 @@ git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 
 source ~/.bashrc
 
-# rbenv install 2.3.1
-# rbenv global 2.3.1
-# gem install rubocop
-#
-# echo "--- Installing Rails..."
-# gem install rails -v 4.2.6
+rbenv install 2.3.1
+rbenv global 2.3.1
+gem install rubocop
+
+echo "--- Installing Rails..."
+gem install rails -v 4.2.6
 
 # echo "--- Installing Python..."
 # sudo apt-get -y install python-pip
