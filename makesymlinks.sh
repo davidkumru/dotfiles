@@ -4,7 +4,7 @@ dir=~/dotfiles
 olddir=~/.dotfiles_old
 vagrantdir=~/vagrant
 files=".zshrc .profile .vimrc .tmux.conf"
-vagrant="Vagrantfile"
+# vagrant="Vagrantfile"
 
 echo "Creating $olddir"
 mkdir -p $olddir
@@ -25,9 +25,9 @@ for file in $files; do
     ln -s $dir/$file ~/$file
 done
 
-for file in $vagrant; do
-    echo "Moving existing file to $olddir"
-    mv $vagrantdir/$file $olddir
-    echo "Creating symlink to $file"
-    ln -s $dir/$file $vagrantdir/$file
-done
+# for file in $vagrant; do
+#     echo "Moving existing file to $olddir"
+#     mv $vagrantdir/$file $olddir
+#     echo "Creating symlink to $file"
+#     ln -s $dir/$file $vagrantdir/$file
+# done
