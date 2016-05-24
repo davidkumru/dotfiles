@@ -68,8 +68,8 @@ nnoremap <leader>o o<esc>
 nnoremap <leader>O O<esc>
 
 " buffers
-nnoremap <bs> :bd<cr>
-nnoremap <leader><bs> :bd!<cr>
+" nnoremap <bs>
+" nnoremap <leader><bs>
 nnoremap \ :b#<cr>
 " nnoremap <leader>\
 " nnoremap |

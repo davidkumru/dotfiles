@@ -56,11 +56,8 @@ alias tree="tree -L 2 -C --dirsfirst --noreport"
 # dotfiles
 alias loadzsh="source ~/.zshrc"
 alias zshrc="vim ~/.zshrc"
-alias bashrc="vim ~/.bashrc"
 alias vimrc="vim ~/.vimrc"
 alias tmuxc="vim ~/.tmux.conf"
-alias profile="vim ~/.profile"
-alias soft="xdg-open ~/Dropbox/Files/Software/Software.ods"
 
 # tmux
 alias tmuxn="tmux new -s"
