@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "--- Installing Vim and tmux..."
-sudo apt-get -y install vim tmux
+sudo apt-get -y install vim-nox tmux
 
 echo "--- Installing vim-plug..."
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \

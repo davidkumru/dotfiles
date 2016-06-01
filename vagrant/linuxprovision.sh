@@ -1,5 +1,14 @@
 #!/usr/bin/env bash
 
+echo "--- Updating..."
+sudo apt-get update
+
+echo "--- Upgrading..."
+sudo apt-get -y upgrade
+
+echo "--- Installing system applications..."
+sudo apt-get -y install htop git curl
+
 echo "--- Removing applications..."
 sudo apt-get -y purge tumbler tumbler-common libtumbler-1-0 blueman light-locker xfce4-taskmanager
 

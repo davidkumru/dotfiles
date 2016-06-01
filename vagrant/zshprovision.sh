@@ -4,7 +4,8 @@ echo "--- Installing Zsh..."
 sudo apt-get -y install zsh
 
 echo "--- Make default shell..."
-chsh -s $(which zsh) vagrant
+chsh -s $(which zsh)
+# chsh -s $(which zsh) vagrant
 # sudo chsh -s $(which zsh) vagrant
 
 echo "--- Cloning dotfiles and syntax highlighting..."
