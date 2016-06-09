@@ -1,5 +1,6 @@
 " vim-plug
 call plug#begin()
+Plug 'vim-ruby/vim-ruby'
 Plug 'nanotech/jellybeans.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
