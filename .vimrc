@@ -8,6 +8,7 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'valloric/youcompleteme', { 'do': './install.py --tern-completer' }
 Plug 'scrooloose/syntastic'
 Plug 'easymotion/vim-easymotion'
+Plug 'airblade/vim-gitgutter'
 Plug 'osyo-manga/vim-over'
 call plug#end()
 
@@ -50,7 +51,6 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set pastetoggle=<F10>
-" hi MatchParen cterm=underline ctermbg=none ctermfg=none
 autocmd CompleteDone * pclose
 
 " escape
