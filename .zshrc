@@ -82,3 +82,6 @@ export NVM_DIR="$HOME/.nvm"
 # packages
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

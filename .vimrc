@@ -38,6 +38,9 @@ syntax on
 filetype plugin indent on
 set title
 set number
+set backspace=indent,eol,start
+set autoread
+set scrolloff=1
 set incsearch
 set hlsearch
 set ignorecase
