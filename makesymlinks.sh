@@ -26,10 +26,11 @@ cd $dir
 echo "Done"
 
 for file in $files; do
-    echo "Moving existing file to $olddir"
-    mv ~/$file $olddir
-    echo "Creating symlink to $file"
-    ln -s $dir/$file ~/$file
+  echo "Moving existing file to $olddir"
+  mv ~/$file $olddir
+  echo "Creating symlink to $file"
+  ln -s $dir/$file ~/$file
+  echo "Done"
 done
 
 # for file in $vagrant; do
@@ -37,11 +38,13 @@ done
 #     mv $vagrantdir/$file $olddir
 #     echo "Creating symlink to $file"
 #     ln -s $dir/$file $vagrantdir/$file
+#     echo "Done"
 # done
 
 for file in $neovim; do
-    echo "Moving existing file to $olddir"
-    mv $neovimdir/$file $olddir
-    echo "Creating symlink to $file"
-    ln -s $dir/$file $neovimdir/$file
+  echo "Moving existing file to $olddir"
+  mv $neovimdir/$file $olddir
+  echo "Creating symlink to $file"
+  ln -s $dir/$file $neovimdir/$file
+  echo "Done"
 done
