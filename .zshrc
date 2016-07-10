@@ -2,7 +2,7 @@
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
-bindkey -v
+# bindkey -v
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/david/.zshrc'
@@ -43,6 +43,7 @@ alias install="sudo apt-get install"
 
 # navigation
 alias ls='ls --color=auto --group-directories-first'
+alias lsa='ls -A --color=auto --group-directories-first'
 alias cl="clear"
 alias o="xdg-open"
 alias f="find . -iname"
@@ -52,12 +53,14 @@ alias p="cd -"
 alias :q="exit"
 cd() { builtin cd "$@" && ls; }
 alias tree="tree -L 2 -C --dirsfirst --noreport"
+alias treea="tree -a -L 2 -C --dirsfirst --noreport"
 
 # dotfiles
 alias loadzsh="source ~/.zshrc"
-alias zshrc="vim ~/.zshrc"
-alias vimrc="vim ~/.vimrc"
-alias tmuxc="vim ~/.tmux.conf"
+alias zshrc="nvim ~/.zshrc"
+alias nvimrc="nvim ~/.config/nvim/init.vim"
+alias vimrc="nvim ~/.vimrc"
+alias tmuxc="nvim ~/.tmux.conf"
 
 # tmux
 alias tmuxn="tmux new -s"
