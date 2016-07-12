@@ -23,6 +23,8 @@ let mapleader="\<space>"
 " plugin settings
 colorscheme jellybeans
 nnoremap <leader>p :CtrlPBuffer<cr>
+tnoremap <leader>p <c-\><c-n>:CtrlPBuffer<cr>
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 let g:syntastic_javascript_checkers=['eslint']
 let g:syntastic_ruby_checkers=['rubocop']
 let g:syntastic_python_checkers=['flake8']
@@ -104,8 +106,8 @@ nnoremap \| :bd<cr>
 " windows
 nnoremap <m-j> <c-w>s <c-w>j
 nnoremap <m-l> <c-w>v <c-w>l
-tnoremap <m-j> <c-\><c-n><c-w>s <c-w>j
-tnoremap <m-l> <c-\><c-n><c-w>v <c-w>l
+tnoremap <m-j> <c-\><c-n><c-w>s <c-\><c-n><c-w>j
+tnoremap <m-l> <c-\><c-n><c-w>v <c-\><c-n><c-w>l
 " nnoremap <left> <c-w>h
 " nnoremap <down> <c-w>j
 " nnoremap <up> <c-w>k
