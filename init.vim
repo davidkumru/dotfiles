@@ -6,11 +6,13 @@ Plug 'nanotech/jellybeans.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdcommenter'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'valloric/youcompleteme', { 'do': './install.py --tern-completer' }
 Plug 'scrooloose/syntastic'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-endwise'
 Plug 'airblade/vim-gitgutter'
 Plug 'osyo-manga/vim-over'
 call plug#end()
@@ -63,6 +65,7 @@ set shiftwidth=2
 set expandtab
 set pastetoggle=<F10>
 autocmd CompleteDone * pclose
+autocmd BufWinEnter,WinEnter term://* startinsert
 
 " escape
 " inoremap jk <esc>
@@ -94,6 +97,8 @@ nnoremap <leader>O O<esc>
 nnoremap \ :b#<cr>
 nnoremap <leader>[ :bp<cr>
 nnoremap <leader>] :bn<cr>
+tnoremap <leader>[ <c-\><c-n>:bp<cr>
+tnoremap <leader>] <c-\><c-n>:bn<cr>
 " nnoremap <leader>\
 nnoremap \| :bd<cr>
 " nnoremap <leader>\|
