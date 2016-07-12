@@ -21,8 +21,6 @@ call plug#end()
 let mapleader="\<space>"
 
 " plugin settings
-" set t_Co=256
-" set t_ut=
 colorscheme jellybeans
 nnoremap <leader>p :CtrlPBuffer<cr>
 let g:syntastic_javascript_checkers=['eslint']
