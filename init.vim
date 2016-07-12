@@ -93,17 +93,19 @@ nnoremap <leader>O O<esc>
 " nnoremap <bs>
 " nnoremap <leader><bs>
 nnoremap \ :b#<cr>
-nnoremap <leader>[ :bp<cr>
-nnoremap <leader>] :bn<cr>
-tnoremap <leader>[ <c-\><c-n>:bp<cr>
-tnoremap <leader>] <c-\><c-n>:bn<cr>
+nnoremap <m-[> :bp<cr>
+nnoremap <m-]> :bn<cr>
+tnoremap <m-[> <c-\><c-n>:bp<cr>
+tnoremap <m-]> <c-\><c-n>:bn<cr>
 " nnoremap <leader>\
 nnoremap \| :bd<cr>
 " nnoremap <leader>\|
 
 " windows
-nnoremap <leader>j <c-w>s <c-w>j
-nnoremap <leader>l <c-w>v <c-w>l
+nnoremap <m-j> <c-w>s <c-w>j
+nnoremap <m-l> <c-w>v <c-w>l
+tnoremap <m-j> <c-\><c-n><c-w>s <c-w>j
+tnoremap <m-l> <c-\><c-n><c-w>v <c-w>l
 " nnoremap <left> <c-w>h
 " nnoremap <down> <c-w>j
 " nnoremap <up> <c-w>k
