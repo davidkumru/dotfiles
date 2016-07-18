@@ -11,7 +11,7 @@ Zsh configuration with improved autocompletion, [zsh-syntax-highlighting](https:
 tmux configuration with the other half of the [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) integration.
 
 ### Vagrantfile / provisioning
-Vagrant (Debian/Ubuntu-based) box setup for quickly spinning up a fresh development and testing environment. The various provisioning scripts can be used to automatically install any required components (e.g. nvm/Node.js/npm, rbenv/ruby-build/Ruby/Rails). Running the bash scripts on your non-Vagrant machine will work after adding/removing the sometimes necessary sudo prefixes.
+Vagrant (Debian/Ubuntu-based) box setup for quickly spinning up a fresh development and testing environment. The various provisioning scripts can be used to automatically install and configure any required components (e.g. nvm/Node.js/npm, rbenv/ruby-build/Ruby/Rails). Running the bash scripts on your non-Vagrant machine will work after adding/removing the sometimes necessary sudo prefixes.
 
 ### .profile
 Setup for local environment variables, including the [xcape](https://github.com/alols/xcape) utility to use the Caps Lock key as an Esc when tapped and as a Ctrl when held down. Recommended for Emacs users as well.
