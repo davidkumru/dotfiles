@@ -11,7 +11,7 @@ Zsh configuration with improved autocompletion, [zsh-syntax-highlighting](https:
 tmux configuration with the other half of the [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) integration.
 
 ## .profile
-Set-up for local environment variables including the [xcape](https://github.com/alols/xcape) utility to use the Caps Lock key as an Esc when tapped and as a Ctrl when held down. Recommended for Emacs users as well.
+Setup for local environment variables including the [xcape](https://github.com/alols/xcape) utility to use the Caps Lock key as an Esc when tapped and as a Ctrl when held down. Recommended for Emacs users as well.
 
 ## Installation
 Configure makesymlinks.sh to include your configuration files and destination directories. Run the bash script to create symlinks to your local dotfiles.
