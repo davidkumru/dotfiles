@@ -16,4 +16,13 @@ Vagrant (Debian/Ubuntu-based) box setup for quickly spinning up a fresh developm
 Setup for local environment variables, including the [xcape](https://github.com/alols/xcape) utility to use the Caps Lock key as an Esc when tapped and as a Ctrl when held down. Recommended for Emacs users as well.
 
 ## Installation
-Configure makesymlinks.sh to include your configuration files and destination directories. Run the bash script to create symlinks to your local dotfiles.
+1. Clone the repository to a local directory:
+```
+git clone https://github.com/davidkumru/dotfiles.git
+```
+2. Configure the makesymlinks.sh bash script to include your configuration files and destination directories as variables.
+
+3. Run the bash script to create symlinks to your local dotfiles.
+```
+./makesymlinks.sh
+```
