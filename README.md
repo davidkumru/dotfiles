@@ -1,5 +1,5 @@
 # dotfiles
-My configuration files for Debian/Ubuntu-based distros (and possibly OS X).
+My dotfiles files for Debian/Ubuntu-based distros (and possibly OS X).
 
 ## .init.vim / .vimrc
 Neo(Vim) configuration for JavaScript, Ruby and Python development. Using the [vim-plug](https://github.com/junegunn/vim-plug) plugin manager for fast parallel installation and [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) for easy switching between Vim splits and tmux panes.
