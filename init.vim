@@ -23,7 +23,7 @@ let mapleader="\<space>"
 " plugin settings
 colorscheme jellybeans
 nnoremap <leader>p :CtrlPBuffer<cr>
-tnoremap <leader>p <c-\><c-n>:CtrlPBuffer<cr>
+" tnoremap <leader>p <c-\><c-n>:CtrlPBuffer<cr>
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 let g:syntastic_javascript_checkers=['eslint']
 let g:syntastic_ruby_checkers=['rubocop']
