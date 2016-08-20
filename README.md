@@ -17,12 +17,12 @@ Setup for local environment variables, including the [xcape](https://github.com/
 
 ## Usage
 Clone the repository (or download the [zip file](https://github.com/davidkumru/dotfiles/archive/master.zip)):
-```
+```bash
 git clone https://github.com/davidkumru/dotfiles.git
 ```
 Edit the makesymlinks.sh bash script to include your configuration files and destination directories as variables.
 
 Run the bash script to create symlinks to your local dotfiles:
-```
+```bash
 ./makesymlinks.sh
 ```
