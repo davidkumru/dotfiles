@@ -2,6 +2,7 @@
 call plug#begin()
 Plug 'vim-ruby/vim-ruby'
 Plug 'elixir-lang/vim-elixir'
+Plug 'slashmili/alchemist.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'nanotech/jellybeans.vim'
