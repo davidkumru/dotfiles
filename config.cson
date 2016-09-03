@@ -1,0 +1,22 @@
+"*":
+  core:
+    allowPendingPaneItems: false
+    audioBeep: false
+    disabledPackages: [
+      "metrics"
+      "welcome"
+    ]
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  editor:
+    scrollPastEnd: true
+    softWrap: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "9547af3b-966b-142f-af94-ef25103329b5"
+  "highlight-selected":
+    hideHighlightOnSelectedWord: true
+  welcome:
+    showOnStartup: false

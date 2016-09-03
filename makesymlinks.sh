@@ -2,15 +2,21 @@
 
 dir=~/dotfiles
 olddir=~/.dotfiles_old
+atomdir=~/.atom
 # vagrantdir=~/vagrant
 neovimdir=~/.config/nvim
 
 files=".zshrc .profile .vimrc .tmux.conf"
+atom="config.cson keymap.cson"
 # vagrant="Vagrantfile"
 neovim="init.vim"
 
 echo "Creating $olddir"
 mkdir -p $olddir
+echo "Done"
+
+echo "Creating $atomdir"
+mkdir -p $atomdir
 echo "Done"
 
 # echo "Creating $vagrantdir"
@@ -30,6 +36,14 @@ for file in $files; do
   mv ~/$file $olddir
   echo "Creating symlink to $file"
   ln -s $dir/$file ~/$file
+  echo "Done"
+done
+
+for file in $atom; do
+  echo "Moving existing file to $olddir"
+  mv $atomdir/$file $olddir
+  echo "Creating symlink to $file"
+  ln -s $dir/$file $atomdir/$file
   echo "Done"
 done
 
