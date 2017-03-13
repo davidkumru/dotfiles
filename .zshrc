@@ -107,7 +107,7 @@ alias live-server="live-server --no-browser"
 [[ -s "$HOME/.kiex/scripts/kiex" ]] && source "$HOME/.kiex/scripts/kiex"
 
 # kerl
-. /home/david/.kerl/19.2/activate
+. ~/.kerl/19.2/activate
 
 # phoenix
 alias ps="iex -S mix phoenix.server"
