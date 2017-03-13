@@ -33,7 +33,6 @@ let g:syntastic_ruby_checkers=['rubocop']
 let g:syntastic_always_populate_loc_list=1
 nnoremap <leader>n :NERDTreeToggle<cr>
 nnoremap <leader>f :NERDTreeFind<cr>
-let g:NERDSpaceDelims=1
 map <tab> <Plug>(easymotion-prefix)s
 " map <s-tab>
 " map <leader><tab>
