@@ -3,15 +3,15 @@ call plug#begin()
 Plug 'vim-ruby/vim-ruby'
 Plug 'elixir-lang/vim-elixir'
 Plug 'slashmili/alchemist.vim'
+Plug 'rust-lang/rust.vim'
 Plug 'pangloss/vim-javascript'
-Plug 'mxw/vim-jsx'
 Plug 'nanotech/jellybeans.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
-Plug 'scrooloose/nerdcommenter'
-Plug 'christoomey/vim-tmux-navigator'
-Plug 'valloric/youcompleteme', { 'do': './install.py --tern-completer' }
+Plug 'tpope/vim-commentary'
+" Plug 'christoomey/vim-tmux-navigator'
+Plug 'valloric/youcompleteme', { 'do': './install.py --tern-completer --racer-completer' }
 Plug 'scrooloose/syntastic'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-fugitive'
@@ -30,11 +30,10 @@ nnoremap <leader>p :CtrlPBuffer<cr>
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 let g:syntastic_javascript_checkers=['eslint']
 let g:syntastic_ruby_checkers=['rubocop']
-let g:syntastic_python_checkers=['flake8']
 let g:syntastic_always_populate_loc_list=1
 nnoremap <leader>n :NERDTreeToggle<cr>
 nnoremap <leader>f :NERDTreeFind<cr>
-map <tab> <Plug>(easymotion-prefix)
+map <tab> <Plug>(easymotion-prefix)s
 " map <s-tab>
 " map <leader><tab>
 let g:EasyMotion_smartcase=1
@@ -46,29 +45,31 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#show_tab_type = 0
 
 " options
-" syntax on
-" filetype plugin indent on
-" set title
+syntax on
+filetype plugin indent on
+set title
 set number
-" set backspace=indent,eol,start
-" set autoread
+set backspace=indent,eol,start
+set autoread
+set cursorline
 set scrolloff=1
-" set incsearch
-" set hlsearch
+set incsearch
+set hlsearch
 set ignorecase
 set smartcase
 set showcmd
 set noshowmode
-" set wildmenu
+set wildmenu
 set wildmode=list:longest,list:full
 set hidden
 set ttimeoutlen=0
+set laststatus=2
 set tabstop=2
 set shiftwidth=2
 set expandtab
 set pastetoggle=<F10>
 autocmd CompleteDone * pclose
-autocmd BufWinEnter,WinEnter term://* startinsert
+" autocmd BufWinEnter,WinEnter term://* startinsert
 
 " escape
 " inoremap jk <esc>
@@ -76,12 +77,12 @@ autocmd BufWinEnter,WinEnter term://* startinsert
 nnoremap <leader><esc> :noh<cr>
 
 " terminal mode
-nnoremap <leader>t :terminal<cr>
-tnoremap <esc> <c-\><c-n>
-tnoremap <c-h> <c-\><c-n><c-w>h
-tnoremap <c-j> <c-\><c-n><c-w>j
-tnoremap <c-k> <c-\><c-n><c-w>k
-tnoremap <c-l> <c-\><c-n><c-w>l
+" nnoremap <leader>t :terminal<cr>
+" tnoremap <esc> <c-\><c-n>
+" tnoremap <c-h> <c-\><c-n><c-w>h
+" tnoremap <c-j> <c-\><c-n><c-w>j
+" tnoremap <c-k> <c-\><c-n><c-w>k
+" tnoremap <c-l> <c-\><c-n><c-w>l
 
 " operations
 nnoremap <leader>/ *
@@ -93,24 +94,25 @@ nnoremap <leader>a ggVG
 nnoremap <leader>i gg=G
 nnoremap <leader>o o<esc>
 nnoremap <leader>O O<esc>
+nnoremap Y y$
 
 " buffers
 " nnoremap <bs>
 " nnoremap <leader><bs>
 nnoremap \ :b#<cr>
-nnoremap <m-[> :bp<cr>
-nnoremap <m-]> :bn<cr>
-tnoremap <m-[> <c-\><c-n>:bp<cr>
-tnoremap <m-]> <c-\><c-n>:bn<cr>
+nnoremap <left> :bp<cr>
+nnoremap <right> :bn<cr>
+" tnoremap <m-[> <c-\><c-n>:bp<cr>
+" tnoremap <m-]> <c-\><c-n>:bn<cr>
 " nnoremap <leader>\
 nnoremap \| :bd<cr>
 " nnoremap <leader>\|
 
 " windows
-nnoremap <m-j> <c-w>s <c-w>j
-nnoremap <m-l> <c-w>v <c-w>l
-tnoremap <m-j> <c-\><c-n><c-w>s <c-\><c-n><c-w>j
-tnoremap <m-l> <c-\><c-n><c-w>v <c-\><c-n><c-w>l
+" nnoremap <m-j> <c-w>s <c-w>j
+" nnoremap <m-l> <c-w>v <c-w>l
+" tnoremap <m-j> <c-\><c-n><c-w>s <c-\><c-n><c-w>j
+" tnoremap <m-l> <c-\><c-n><c-w>v <c-\><c-n><c-w>l
 " nnoremap <left> <c-w>h
 " nnoremap <down> <c-w>j
 " nnoremap <up> <c-w>k
