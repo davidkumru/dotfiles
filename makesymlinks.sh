@@ -5,7 +5,7 @@ olddir=~/.dotfiles_old
 # atomdir=~/.atom
 # neovimdir=~/.config/nvim
 
-files=".zshrc .profile .vimrc .tmux.conf"
+files=".zshrc .profile .vimrc .tmux.conf .gitconfig"
 # atom="config.cson keymap.cson"
 # neovim="init.vim"
 
