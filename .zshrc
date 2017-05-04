@@ -33,8 +33,8 @@ vcs_info_wrapper() {
 RPROMPT=$'$(vcs_info_wrapper)'
 
 # options
-export TERM="xterm-256color"
-export KEYTIMEOUT=1
+# export TERM="xterm-256color"
+# export KEYTIMEOUT=1
 setopt autocd
 setopt correctall
 setopt histignoredups
@@ -52,20 +52,11 @@ bindkey '\eOB' down-line-or-beginning-search
 # bindkey '^[[A' up-line-or-beginning-search
 # bindkey '^[[B' down-line-or-beginning-search
 
-# system
-alias sd="sudo shutdown -h now"
-alias rs="sudo shutdown -r now"
-alias lo="xfce4-session-logout --logout --fast"
-
-# apt-get
-alias update="sudo apt-get update && sudo apt-get upgrade"
-alias install="sudo apt-get install"
-
 # navigation
 alias ls='ls --color=auto --group-directories-first'
 alias lsa='ls -A --color=auto --group-directories-first'
 alias cl="clear"
-alias o="xdg-open"
+alias o="open"
 alias f="find . -iname"
 alias rmd="rm -rf"
 alias u="cd .."
@@ -78,7 +69,6 @@ alias treea="tree -a -L 2 -C --dirsfirst --noreport"
 # dotfiles
 alias loadzsh="source ~/.zshrc"
 alias zshrc="vim ~/.zshrc"
-alias nvimrc="vim ~/.config/nvim/init.vim"
 alias vimrc="vim ~/.vimrc"
 alias tmuxc="vim ~/.tmux.conf"
 
@@ -97,9 +87,6 @@ alias gap="git add -p"
 # nvm
 # export NVM_DIR="$HOME/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-
-# npm
-alias live-server="live-server --no-browser"
 
 # rbenv
 # export PATH="$HOME/.rbenv/bin:$PATH"
