@@ -21,5 +21,3 @@ PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
 setxkbmap -option 'caps:ctrl_modifier'
 xcape -e 'Caps_Lock=Escape'
-
-export PATH="$HOME/.cargo/bin:$PATH"
