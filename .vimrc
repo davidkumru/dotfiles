@@ -3,15 +3,14 @@ call plug#begin()
 Plug 'vim-ruby/vim-ruby'
 Plug 'elixir-lang/vim-elixir'
 Plug 'slashmili/alchemist.vim'
-Plug 'rust-lang/rust.vim'
+" Plug 'rust-lang/rust.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'nanotech/jellybeans.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-commentary'
 " Plug 'christoomey/vim-tmux-navigator'
-Plug 'valloric/youcompleteme', { 'do': './install.py --tern-completer --racer-completer' }
+Plug 'valloric/youcompleteme', { 'do': './install.py --tern-completer' }
 Plug 'scrooloose/syntastic'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-fugitive'
@@ -26,7 +25,6 @@ let mapleader="\<space>"
 " plugin settings
 colorscheme jellybeans
 nnoremap <leader>p :CtrlPBuffer<cr>
-" tnoremap <leader>p <c-\><c-n>:CtrlPBuffer<cr>
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 let g:syntastic_javascript_checkers=['eslint']
 let g:syntastic_ruby_checkers=['rubocop']
@@ -69,20 +67,9 @@ set shiftwidth=2
 set expandtab
 set pastetoggle=<F10>
 autocmd CompleteDone * pclose
-" autocmd BufWinEnter,WinEnter term://* startinsert
 
 " escape
-" inoremap jk <esc>
-" inoremap kj <esc>
 nnoremap <leader><esc> :noh<cr>
-
-" terminal mode
-" nnoremap <leader>t :terminal<cr>
-" tnoremap <esc> <c-\><c-n>
-" tnoremap <c-h> <c-\><c-n><c-w>h
-" tnoremap <c-j> <c-\><c-n><c-w>j
-" tnoremap <c-k> <c-\><c-n><c-w>k
-" tnoremap <c-l> <c-\><c-n><c-w>l
 
 " operations
 nnoremap <leader>/ *
@@ -102,8 +89,6 @@ nnoremap Y y$
 nnoremap \ :b#<cr>
 nnoremap <left> :bp<cr>
 nnoremap <right> :bn<cr>
-" tnoremap <m-[> <c-\><c-n>:bp<cr>
-" tnoremap <m-]> <c-\><c-n>:bn<cr>
 " nnoremap <leader>\
 nnoremap \| :bd<cr>
 " nnoremap <leader>\|
@@ -111,8 +96,6 @@ nnoremap \| :bd<cr>
 " windows
 " nnoremap <m-j> <c-w>s <c-w>j
 " nnoremap <m-l> <c-w>v <c-w>l
-" tnoremap <m-j> <c-\><c-n><c-w>s <c-\><c-n><c-w>j
-" tnoremap <m-l> <c-\><c-n><c-w>v <c-\><c-n><c-w>l
 " nnoremap <left> <c-w>h
 " nnoremap <down> <c-w>j
 " nnoremap <up> <c-w>k
