@@ -47,14 +47,12 @@ autoload -Uz up-line-or-beginning-search
 autoload -Uz down-line-or-beginning-search
 zle -N up-line-or-beginning-search
 zle -N down-line-or-beginning-search
-bindkey '\eOA' up-line-or-beginning-search
-bindkey '\eOB' down-line-or-beginning-search
-# bindkey '^[[A' up-line-or-beginning-search
-# bindkey '^[[B' down-line-or-beginning-search
+bindkey '^[[A' up-line-or-beginning-search
+bindkey '^[[B' down-line-or-beginning-search
 
 # navigation
-alias ls='ls --color=auto --group-directories-first'
-alias lsa='ls -A --color=auto --group-directories-first'
+alias ls='ls -G'
+alias lsa='ls -A -G'
 alias cl="clear"
 alias o="open"
 alias f="find . -iname"
@@ -93,10 +91,10 @@ alias gap="git add -p"
 # eval "$(rbenv init -)"
 
 # kiex
-[[ -s "$HOME/.kiex/scripts/kiex" ]] && source "$HOME/.kiex/scripts/kiex"
+# [[ -s "$HOME/.kiex/scripts/kiex" ]] && source "$HOME/.kiex/scripts/kiex"
 
 # kerl
-. ~/.kerl/19.2/activate
+# . ~/.kerl/19.2/activate
 
 # phoenix
 alias ps="iex -S mix phoenix.server"

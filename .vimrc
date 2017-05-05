@@ -29,8 +29,6 @@ let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standar
 let g:syntastic_javascript_checkers=['eslint']
 let g:syntastic_ruby_checkers=['rubocop']
 let g:syntastic_always_populate_loc_list=1
-nnoremap <leader>n :NERDTreeToggle<cr>
-nnoremap <leader>f :NERDTreeFind<cr>
 map <tab> <Plug>(easymotion-prefix)s
 " map <s-tab>
 " map <leader><tab>
@@ -65,8 +63,8 @@ set laststatus=2
 set tabstop=2
 set shiftwidth=2
 set expandtab
-set pastetoggle=<F10>
-autocmd CompleteDone * pclose
+" set pastetoggle=<F10>
+" autocmd CompleteDone * pclose
 
 " escape
 nnoremap <leader><esc> :noh<cr>
