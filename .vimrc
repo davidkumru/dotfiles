@@ -30,6 +30,8 @@ let g:syntastic_javascript_checkers=['eslint']
 let g:syntastic_ruby_checkers=['rubocop']
 let g:syntastic_always_populate_loc_list=1
 map <tab> <Plug>(easymotion-prefix)s
+" map § <tab>s
+" map ± <tab>s
 " map <s-tab>
 " map <leader><tab>
 let g:EasyMotion_smartcase=1
@@ -92,6 +94,7 @@ nnoremap \| :bd<cr>
 " nnoremap <leader>\|
 
 " windows
+" alt/opt?
 " nnoremap <m-j> <c-w>s <c-w>j
 " nnoremap <m-l> <c-w>v <c-w>l
 " nnoremap <left> <c-w>h

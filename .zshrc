@@ -99,6 +99,9 @@ alias gap="git add -p"
 # phoenix
 alias ps="iex -S mix phoenix.server"
 
+# postgresql
+# export PATH="/usr/local/opt/postgresql@9.4/bin:$PATH"
+
 # zsh packages
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
