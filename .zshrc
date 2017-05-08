@@ -87,11 +87,11 @@ alias gap="git add -p"
 # [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
 # rbenv
-# export PATH="$HOME/.rbenv/bin:$PATH"
-# eval "$(rbenv init -)"
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
 
 # kiex
-# [[ -s "$HOME/.kiex/scripts/kiex" ]] && source "$HOME/.kiex/scripts/kiex"
+[[ -s "$HOME/.kiex/scripts/kiex" ]] && source "$HOME/.kiex/scripts/kiex"
 
 # kerl
 # . ~/.kerl/19.2/activate
@@ -100,7 +100,7 @@ alias gap="git add -p"
 alias ps="iex -S mix phoenix.server"
 
 # postgresql
-# export PATH="/usr/local/opt/postgresql@9.4/bin:$PATH"
+export PATH="/usr/local/opt/postgresql@9.4/bin:$PATH"
 
 # zsh packages
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
