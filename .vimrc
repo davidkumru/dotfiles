@@ -9,7 +9,7 @@ Plug 'nanotech/jellybeans.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tpope/vim-commentary'
-" Plug 'christoomey/vim-tmux-navigator'
+Plug 'christoomey/vim-tmux-navigator'
 " Plug 'valloric/youcompleteme', { 'do': './install.py --tern-completer' }
 Plug 'scrooloose/syntastic'
 Plug 'easymotion/vim-easymotion'
@@ -94,9 +94,8 @@ nnoremap \| :bd<cr>
 " nnoremap <leader>\|
 
 " windows
-" alt/opt?
-" nnoremap <m-j> <c-w>s <c-w>j
-" nnoremap <m-l> <c-w>v <c-w>l
+nnoremap ∆ <c-w>s <c-w>j
+nnoremap ¬ <c-w>v <c-w>l
 " nnoremap <left> <c-w>h
 " nnoremap <down> <c-w>j
 " nnoremap <up> <c-w>k
