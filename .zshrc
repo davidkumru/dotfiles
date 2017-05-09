@@ -80,7 +80,9 @@ alias tmuxk="tmux kill-session -t"
 alias gs="git status"
 alias gd="git diff"
 alias gdc="git diff --cached"
+alias gdl="git diff HEAD^ HEAD"
 alias gap="git add -p"
+alias gc="git commit -m"
 
 # nvm
 # export NVM_DIR="$HOME/.nvm"
