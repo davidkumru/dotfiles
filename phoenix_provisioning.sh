@@ -53,6 +53,9 @@ sudo -u postgres psql -c "ALTER USER postgres PASSWORD 'postgres';"
 
 sudo service postgresql restart
 
+# optionally create database
+# sudo -u postgres createdb <database_name>
+
 echo "--- Installing inotify-tools..."
 
 sudo apt-get -y install inotify-tools
