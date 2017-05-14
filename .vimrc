@@ -25,22 +25,23 @@ let mapleader="\<space>"
 " plugin settings
 colorscheme jellybeans
 nnoremap <leader>p :CtrlPBuffer<cr>
-let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+let g:ctrlp_user_command=['.git', 'cd %s && git ls-files -co --exclude-standard']
 let g:syntastic_javascript_checkers=['eslint']
 let g:syntastic_ruby_checkers=['rubocop']
 let g:syntastic_always_populate_loc_list=1
 map <tab> <Plug>(easymotion-prefix)s
-" map § <tab>s
+map § :Vexplore<cr>
 " map ± <tab>s
 " map <s-tab>
-" map <leader><tab>
 let g:EasyMotion_smartcase=1
 nnoremap <leader>s :OverCommandLine<cr>%s/
 nnoremap <leader>S :OverCommandLine<cr>s/
 let g:airline_left_sep=''
 let g:airline_right_sep=''
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#show_tab_type = 0
+let g:airline#extensions#tabline#enabled=1
+let g:airline#extensions#tabline#show_tab_type=0
+let g:netrw_banner=0
+let g:netrw_winsize=20
 
 " options
 syntax on

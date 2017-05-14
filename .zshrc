@@ -56,7 +56,6 @@ alias ls='ls -G'
 alias lsa='ls -A -G'
 alias cl="clear"
 alias o="open"
-alias f="find . -iname"
 alias rmd="rm -rf"
 alias u="cd .."
 alias p="cd -"
@@ -85,13 +84,19 @@ alias gdl="git diff HEAD^ HEAD"
 alias gap="git add -p"
 alias gc="git commit -m"
 
+# vagrant
+alias vt="vagrant status"
+alias vu="vagrant up"
+alias vs="vagrant ssh"
+alias vh="vagrant halt"
+
 # nvm
 # export NVM_DIR="$HOME/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
 # kiex
 [[ -s "$HOME/.kiex/scripts/kiex" ]] && source "$HOME/.kiex/scripts/kiex"
