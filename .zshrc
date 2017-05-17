@@ -96,7 +96,7 @@ alias vh="vagrant halt"
 
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
-# eval "$(rbenv init -)"
+eval "$(rbenv init -)"
 
 # kiex
 [[ -s "$HOME/.kiex/scripts/kiex" ]] && source "$HOME/.kiex/scripts/kiex"
