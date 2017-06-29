@@ -44,6 +44,7 @@ let g:netrw_banner=0
 let g:netrw_winsize=20
 
 " options
+set guifont=Monaco:h13
 syntax on
 filetype plugin indent on
 set title
