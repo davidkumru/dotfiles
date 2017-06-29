@@ -37,7 +37,6 @@ RPROMPT=$'$(vcs_info_wrapper)'
 # export TERM="xterm-256color"
 # export KEYTIMEOUT=1
 setopt autocd
-setopt correctall
 setopt histignoredups
 setopt noclobber
 setopt globdots
