@@ -17,6 +17,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-endwise'
 Plug 'airblade/vim-gitgutter'
 Plug 'osyo-manga/vim-over'
+Plug 'mileszs/ack.vim'
 call plug#end()
 
 " leader
@@ -42,6 +43,7 @@ let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#tabline#show_tab_type=0
 let g:netrw_banner=0
 let g:netrw_winsize=20
+":Ack! --elixir occupation web/
 
 " options
 set guifont=Monaco:h13
