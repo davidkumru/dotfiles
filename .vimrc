@@ -43,7 +43,7 @@ let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#tabline#show_tab_type=0
 let g:netrw_banner=0
 let g:netrw_winsize=20
-":Ack! --elixir occupation web/
+nnoremap <leader>f :Ack! --elixir 
 
 " options
 set guifont=Monaco:h13
