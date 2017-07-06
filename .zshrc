@@ -82,6 +82,7 @@ alias gdc="git diff --cached"
 alias gdl="git diff HEAD^ HEAD"
 alias gap="git add -p"
 alias gc="git commit -m"
+alias gb="git checkout"
 
 # vagrant
 alias vt="vagrant status"

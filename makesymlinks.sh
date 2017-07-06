@@ -3,7 +3,7 @@
 dir=~/dotfiles
 olddir=~/.dotfiles_old
 
-files=".zshrc .vimrc .tmux.conf .gitconfig"
+files=".zshrc .vimrc .tmux.conf .gitconfig .gitignore"
 emacs_files="init.el"
 
 echo "Creating $olddir"
