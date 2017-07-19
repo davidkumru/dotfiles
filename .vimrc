@@ -46,7 +46,7 @@ let g:netrw_winsize=20
 nnoremap <leader>f :Ack! --elixir 
 
 " options
-set guifont=Monaco:h13
+set guifont=Inconsolata:h16
 syntax on
 filetype plugin indent on
 set title
