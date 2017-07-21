@@ -257,7 +257,7 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>604 490 664 250 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>324 352 918 381 0 0 1440 900 </string>
+	<string>324 444 918 381 0 0 1440 900 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
@@ -419,12 +419,16 @@
 			<true/>
 			<key>Background Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.070588235294117646</real>
+				<real>0.0</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.070588235294117646</real>
+				<real>0.0</real>
 				<key>Red Component</key>
-				<real>0.070588235294117646</real>
+				<real>0.0</real>
 			</dict>
 			<key>Background Image Location</key>
 			<string></string>
@@ -957,12 +961,16 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-07-19T12:35:48Z</date>
+	<date>2017-07-21T14:29:47Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>UKCrashReporterLastCrashReportDate</key>
 	<real>1493645440</real>
 	<key>iTerm Version</key>
 	<string>3.0.15</string>
+	<key>kCPKSelectionViewPreferredModeKey</key>
+	<integer>0</integer>
+	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
+	<false/>
 </dict>
 </plist>
