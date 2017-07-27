@@ -105,11 +105,8 @@ fi
 # kiex
 [[ -s "$HOME/.kiex/scripts/kiex" ]] && source "$HOME/.kiex/scripts/kiex"
 
-# kerl
-# . ~/.kerl/19.2/activate
-
 # phoenix
-alias ps="iex -S mix phoenix.server"
+alias ps="iex -S mix phx.server"
 
 # postgresql
 export PATH="/usr/local/opt/postgresql@9.4/bin:$PATH"

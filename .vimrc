@@ -6,6 +6,7 @@ Plug 'slashmili/alchemist.vim'
 " Plug 'rust-lang/rust.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'nanotech/jellybeans.vim'
+Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tpope/vim-commentary'
@@ -24,7 +25,9 @@ call plug#end()
 let mapleader="\<space>"
 
 " plugin settings
-colorscheme jellybeans
+" colorscheme jellybeans
+colorscheme gruvbox
+let g:gruvbox_contrast_dark='hard'
 nnoremap <leader>p :CtrlPBuffer<cr>
 let g:ctrlp_user_command=['.git', 'cd %s && git ls-files -co --exclude-standard']
 let g:syntastic_javascript_checkers=['eslint']
