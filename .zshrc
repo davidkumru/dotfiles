@@ -84,14 +84,10 @@ alias gc="git commit -m"
 alias gb="git checkout"
 
 # vagrant
-alias vt="vagrant status"
-alias vu="vagrant up"
-alias vs="vagrant ssh"
-alias vh="vagrant halt"
-
-# nvm
-# export NVM_DIR="$HOME/.nvm"
-# [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+# alias vt="vagrant status"
+# alias vu="vagrant up"
+# alias vs="vagrant ssh"
+# alias vh="vagrant halt"
 
 # rbenv
 # export PATH="$HOME/.rbenv/bin:$PATH"
