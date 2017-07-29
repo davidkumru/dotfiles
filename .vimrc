@@ -5,7 +5,8 @@ Plug 'elixir-lang/vim-elixir'
 Plug 'slashmili/alchemist.vim'
 " Plug 'rust-lang/rust.vim'
 Plug 'pangloss/vim-javascript'
-Plug 'nanotech/jellybeans.vim'
+" Plug 'nanotech/jellybeans.vim'
+Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tpope/vim-commentary'
@@ -24,7 +25,9 @@ call plug#end()
 let mapleader="\<space>"
 
 " plugin settings
-colorscheme jellybeans
+" colorscheme jellybeans
+colorscheme gruvbox
+let g:gruvbox_contrast_dark='hard'
 nnoremap <leader>p :CtrlPBuffer<cr>
 let g:ctrlp_user_command=['.git', 'cd %s && git ls-files -co --exclude-standard']
 let g:syntastic_javascript_checkers=['eslint']
@@ -46,7 +49,7 @@ let g:netrw_winsize=20
 nnoremap <leader>f :Ack! --elixir 
 
 " options
-set guifont=Monaco:h13
+set guifont=Inconsolata:h16
 syntax on
 filetype plugin indent on
 set title
