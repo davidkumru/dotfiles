@@ -109,6 +109,8 @@ fi
 alias ps="iex -S mix phx.server"
 
 # postgresql
+# for auto-load run: brew services start postgresql
+alias pgs="pg_ctl -D /usr/local/var/postgres start"
 export PATH="/usr/local/opt/postgresql@9.4/bin:$PATH"
 
 # zsh packages
