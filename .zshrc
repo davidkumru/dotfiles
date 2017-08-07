@@ -103,6 +103,7 @@ fi
 
 # phoenix
 alias ps="iex -S mix phx.server"
+export ERL_AFLAGS="-kernel shell_history enabled"
 
 # postgresql
 # for auto-load run: brew services start postgresql
