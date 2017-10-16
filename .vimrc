@@ -5,6 +5,7 @@ Plug 'elixir-lang/vim-elixir'
 Plug 'slashmili/alchemist.vim'
 " Plug 'rust-lang/rust.vim'
 Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 " Plug 'nanotech/jellybeans.vim'
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
@@ -47,6 +48,7 @@ let g:airline#extensions#tabline#show_tab_type=0
 let g:netrw_banner=0
 let g:netrw_winsize=20
 nnoremap <leader>f :Ack! --elixir 
+let g:jsx_ext_required = 0
 
 " options
 set guifont=Inconsolata:h16
