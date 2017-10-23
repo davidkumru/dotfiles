@@ -606,13 +606,13 @@
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>330 305 620 392 0 0 1280 777 </string>
+	<string>376 259 620 392 0 0 1280 777 </string>
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>269 254 918 495 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>206 215 665 452 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>524 149 665 452 0 0 1280 800 </string>
+	<string>705 113 665 452 0 0 1280 777 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1396,11 +1396,13 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-09-25T20:39:29Z</date>
+	<date>2017-10-23T11:38:01Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.1.2</string>
+	<string>3.1.4</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
