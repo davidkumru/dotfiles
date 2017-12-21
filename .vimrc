@@ -3,16 +3,14 @@ call plug#begin()
 Plug 'vim-ruby/vim-ruby'
 Plug 'elixir-lang/vim-elixir'
 Plug 'slashmili/alchemist.vim'
-" Plug 'rust-lang/rust.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
-" Plug 'nanotech/jellybeans.vim'
+Plug 'elmcast/elm-vim'
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tpope/vim-commentary'
 Plug 'christoomey/vim-tmux-navigator'
-" Plug 'valloric/youcompleteme', { 'do': './install.py --tern-completer' }
 Plug 'scrooloose/syntastic'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-fugitive'
@@ -26,7 +24,6 @@ call plug#end()
 let mapleader="\<space>"
 
 " plugin settings
-" colorscheme jellybeans
 colorscheme gruvbox
 let g:gruvbox_contrast_dark='hard'
 nnoremap <leader>p :CtrlPBuffer<cr>
