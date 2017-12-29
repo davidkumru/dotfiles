@@ -10,7 +10,7 @@ Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tpope/vim-commentary'
-Plug 'christoomey/vim-tmux-navigator'
+" Plug 'christoomey/vim-tmux-navigator'
 Plug 'scrooloose/syntastic'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-fugitive'
@@ -31,11 +31,12 @@ let g:ctrlp_user_command=['.git', 'cd %s && git ls-files -co --exclude-standard'
 let g:syntastic_javascript_checkers=['eslint']
 let g:syntastic_ruby_checkers=['rubocop']
 let g:syntastic_always_populate_loc_list=1
+let g:syntastic_auto_loc_list=1
 map <tab> <Plug>(easymotion-prefix)s
+let g:EasyMotion_smartcase=1
 map § :Vexplore<cr>
 " map ± <tab>s
 " map <s-tab>
-let g:EasyMotion_smartcase=1
 nnoremap <leader>s :OverCommandLine<cr>%s/
 nnoremap <leader>S :OverCommandLine<cr>s/
 let g:airline_left_sep=''
