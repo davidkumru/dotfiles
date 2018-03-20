@@ -98,9 +98,6 @@ if (( $+commands[rbenv] )); then
   eval "$(rbenv init -)"
 fi
 
-# kiex
-[[ -s "$HOME/.kiex/scripts/kiex" ]] && source "$HOME/.kiex/scripts/kiex"
-
 # phoenix
 alias ps="iex -S mix phx.server"
 export ERL_AFLAGS="-kernel shell_history enabled"
