@@ -68,6 +68,12 @@ alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
 alias tmuxc="vim ~/.tmux.conf"
 
+# homebrew
+alias bu="brew update"
+alias bo="brew outdated && brew cask outdated"
+alias bug="brew upgrade && brew cask upgrade"
+alias bc="brew cleanup && brew cask cleanup"
+
 # tmux
 alias tmuxn="tmux new -s"
 alias tmuxa="tmux a -t"
