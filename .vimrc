@@ -45,7 +45,7 @@ let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#tabline#show_tab_type=0
 let g:netrw_banner=0
 let g:netrw_winsize=20
-nnoremap <leader>f :Ack! --elixir 
+nnoremap <leader>f :Ack! -i --elixir 
 let g:jsx_ext_required = 0
 
 " options
