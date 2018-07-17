@@ -8,7 +8,6 @@ Plug 'mxw/vim-jsx'
 Plug 'elmcast/elm-vim'
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tpope/vim-commentary'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'scrooloose/syntastic'
@@ -17,7 +16,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-endwise'
 Plug 'airblade/vim-gitgutter'
 Plug 'osyo-manga/vim-over'
-Plug 'mileszs/ack.vim'
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf.vim'
 call plug#end()
 
 " leader
@@ -26,8 +26,6 @@ let mapleader="\<space>"
 " plugin settings
 colorscheme gruvbox
 let g:gruvbox_contrast_dark='hard'
-nnoremap <leader>p :CtrlPBuffer<cr>
-let g:ctrlp_user_command=['.git', 'cd %s && git ls-files -co --exclude-standard']
 let g:syntastic_javascript_checkers=['eslint']
 let g:syntastic_ruby_checkers=['rubocop']
 let g:syntastic_always_populate_loc_list=1
@@ -45,7 +43,10 @@ let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#tabline#show_tab_type=0
 let g:netrw_banner=0
 let g:netrw_winsize=20
-nnoremap <leader>f :Ack! -i --elixir 
+nnoremap <leader>p :Files<cr>
+nnoremap <leader>b :Buffers<cr>
+nnoremap <leader>c :BCommits<cr>
+nnoremap <leader>f :Ag!
 let g:jsx_ext_required = 0
 
 " options
