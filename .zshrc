@@ -72,7 +72,7 @@ alias tmuxc="vim ~/.tmux.conf"
 alias bu="brew update"
 alias bo="brew outdated && brew cask outdated"
 alias bug="brew upgrade && brew cask upgrade"
-alias bc="brew cleanup && brew cask cleanup"
+alias bc="brew cleanup"
 
 # tmux
 alias tmuxn="tmux new -s"
