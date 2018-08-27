@@ -4,8 +4,6 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'elixir-lang/vim-elixir'
 Plug 'slashmili/alchemist.vim'
 Plug 'pangloss/vim-javascript'
-Plug 'mxw/vim-jsx'
-Plug 'elmcast/elm-vim'
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-commentary'
@@ -47,7 +45,6 @@ nnoremap <leader>p :Files<cr>
 nnoremap <leader>b :Buffers<cr>
 nnoremap <leader>c :BCommits<cr>
 nnoremap <leader>f :Ag!
-let g:jsx_ext_required = 0
 
 " options
 set guifont=Inconsolata:h16
@@ -73,7 +70,6 @@ set laststatus=2
 set tabstop=2
 set shiftwidth=2
 set expandtab
-" autocmd CompleteDone * pclose
 
 " escape
 nnoremap <leader><esc> :noh<cr>
