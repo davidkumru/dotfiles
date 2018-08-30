@@ -54,6 +54,7 @@ set title
 set number
 set backspace=indent,eol,start
 set autoread
+set updatetime=1000
 set cursorline
 set scrolloff=1
 set incsearch
