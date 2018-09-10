@@ -82,6 +82,7 @@ alias tmuxk="tmux kill-session -t"
 
 # git
 alias gs="git status"
+alias gp="git pull"
 alias gd="git diff"
 alias gdc="git diff --cached"
 alias gdl="git diff HEAD^ HEAD"
