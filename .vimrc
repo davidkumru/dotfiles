@@ -56,6 +56,7 @@ set backspace=indent,eol,start
 set autoread
 set updatetime=1000
 set cursorline
+set linespace=6
 set scrolloff=1
 set incsearch
 set hlsearch
