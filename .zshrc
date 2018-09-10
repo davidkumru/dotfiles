@@ -83,12 +83,12 @@ alias tmuxk="tmux kill-session -t"
 # git
 alias gs="git status"
 alias gp="git pull"
+alias gb="git checkout"
 alias gd="git diff"
 alias gdc="git diff --cached"
 alias gdl="git diff HEAD^ HEAD"
-alias gap="git add -p"
+alias ga="git add -p"
 alias gc="git commit -m"
-alias gb="git checkout"
 
 # vagrant
 # alias vt="vagrant status"
