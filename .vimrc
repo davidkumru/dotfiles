@@ -3,6 +3,7 @@ call plug#begin()
 Plug 'vim-ruby/vim-ruby'
 Plug 'elixir-lang/vim-elixir'
 Plug 'slashmili/alchemist.vim'
+Plug 'mhinz/vim-mix-format'
 Plug 'pangloss/vim-javascript'
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
@@ -29,6 +30,7 @@ let g:syntastic_javascript_checkers=['eslint']
 let g:syntastic_ruby_checkers=['rubocop']
 let g:syntastic_always_populate_loc_list=1
 let g:syntastic_auto_loc_list=1
+let g:mix_format_on_save=1
 map <tab> <Plug>(easymotion-prefix)s
 let g:EasyMotion_smartcase=1
 map § :Vexplore<cr>
