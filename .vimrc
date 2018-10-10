@@ -45,7 +45,7 @@ let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#tabline#show_tab_type=0
 let g:netrw_banner=0
 let g:netrw_winsize=20
-nnoremap <leader>p :Files<cr>
+nnoremap <leader>p :GFiles<cr>
 nnoremap <leader>b :Buffers<cr>
 nnoremap <leader>c :BCommits<cr>
 nnoremap <leader>f :Ag!
