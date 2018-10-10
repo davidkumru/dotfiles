@@ -31,6 +31,7 @@ let g:syntastic_ruby_checkers=['rubocop']
 let g:syntastic_always_populate_loc_list=1
 let g:syntastic_auto_loc_list=1
 let g:mix_format_on_save=1
+let g:mix_format_silent_errors=1
 map <tab> <Plug>(easymotion-prefix)s
 let g:EasyMotion_smartcase=1
 map § :Vexplore<cr>
