@@ -74,6 +74,9 @@ alias bo="brew outdated && brew cask outdated"
 alias bug="brew upgrade && brew cask upgrade"
 alias bc="brew cleanup"
 
+# asdf
+source /usr/local/opt/asdf/asdf.sh
+
 # tmux
 alias tmuxn="tmux new -s"
 alias tmuxa="tmux a -t"
@@ -97,15 +100,12 @@ alias gc="git commit -m"
 # alias vh="vagrant halt"
 
 # rbenv
-# export PATH="$HOME/.rbenv/bin:$PATH"
-# eval "$(rbenv init -)"
+# if (( $+commands[rbenv] )); then
+#   export PATH="$HOME/.rbenv/bin:$PATH"
+#   eval "$(rbenv init -)"
+# fi
 
-if (( $+commands[rbenv] )); then
-  export PATH="$HOME/.rbenv/bin:$PATH"
-  eval "$(rbenv init -)"
-fi
-
-# phoenix
+# elixir
 alias ps="iex -S mix phx.server"
 alias tw="mix test.watch"
 alias tws="mix test.watch --stale"
