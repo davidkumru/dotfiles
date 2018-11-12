@@ -93,18 +93,6 @@ alias gdl="git diff HEAD^ HEAD"
 alias ga="git add -p"
 alias gc="git commit -m"
 
-# vagrant
-# alias vt="vagrant status"
-# alias vu="vagrant up"
-# alias vs="vagrant ssh"
-# alias vh="vagrant halt"
-
-# rbenv
-# if (( $+commands[rbenv] )); then
-#   export PATH="$HOME/.rbenv/bin:$PATH"
-#   eval "$(rbenv init -)"
-# fi
-
 # elixir
 alias ps="iex -S mix phx.server"
 alias tw="mix test.watch"
@@ -112,7 +100,6 @@ alias tws="mix test.watch --stale"
 export ERL_AFLAGS="-kernel shell_history enabled"
 
 # postgresql
-# for auto-load run: brew services start postgresql
 alias pgs="pg_ctl -D /usr/local/var/postgres start"
 alias pgq="pg_ctl -D /usr/local/var/postgres stop"
 export PATH="/usr/local/opt/postgresql@9.4/bin:$PATH"
