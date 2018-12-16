@@ -7,7 +7,6 @@
     "editor.minimap.enabled": false,
     "editor.overviewRulerBorder": false,
     "editor.renderIndentGuides": false,
-    "editor.renderLineHighlight": "gutter",
     "editor.roundedSelection": false,
     "elixirLS.dialyzerEnabled": false,
     "elixirLS.suggestSpecs": false,
@@ -24,5 +23,8 @@
     "workbench.editor.enablePreview": false,
     "workbench.startupEditor": "none",
     "workbench.statusBar.feedback.visible": false,
-    "workbench.tips.enabled": false
+    "workbench.tips.enabled": false,
+    "files.exclude": {
+        "**/.elixir_ls": true
+    }
 }
