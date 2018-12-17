@@ -26,5 +26,6 @@
     "workbench.tips.enabled": false,
     "files.exclude": {
         "**/.elixir_ls": true
-    }
+    },
+    "editor.glyphMargin": false
 }
