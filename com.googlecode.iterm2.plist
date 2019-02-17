@@ -11,8 +11,16 @@
 	<key>AppleWindowTabbingMode</key>
 	<string>manual</string>
 	<key>Default Bookmark Guid</key>
-	<string>CC152C04-AFEE-4E6D-BC2E-84D7A2ABD4B8</string>
+	<string>551C8E9B-0411-45ED-9E7E-A0E5C3FF115D</string>
+	<key>HideActivityIndicator</key>
+	<true/>
+	<key>HideTab</key>
+	<false/>
+	<key>HideTabNumber</key>
+	<true/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
+	<true/>
+	<key>JobName</key>
 	<true/>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
@@ -52,9 +60,11 @@
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>733 615 796 486 0 0 2560 1417 </string>
+	<string>839 442 796 486 0 0 2560 1418 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>322 204 585 452 0 0 2560 1417 </string>
+	<string>476 259 1425 815 0 0 2560 1418 </string>
+	<key>NSWindow Frame iTerm Window 1</key>
+	<string>668 515 585 452 0 0 2560 1418 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -280,7 +290,7 @@
 				<real>0.73333334922790527</real>
 			</dict>
 			<key>Guid</key>
-			<string>CC152C04-AFEE-4E6D-BC2E-84D7A2ABD4B8</string>
+			<string>551C8E9B-0411-45ED-9E7E-A0E5C3FF115D</string>
 			<key>Horizontal Spacing</key>
 			<real>1</real>
 			<key>Idle Code</key>
@@ -652,13 +662,13 @@
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>CEA7A846-3FF4-4D32-8012-CD951A9C9A02</string>
+	<string>360D090C-B390-41EA-9DF0-2A6183C27273</string>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>563546406.78083003</real>
+	<real>572052773.48242795</real>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -701,14 +711,22 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final.xml?shard=52</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=67</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-11-10T12:40:51Z</date>
+	<date>2019-02-16T23:33:43Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
+	<key>ShowBookmarkName</key>
+	<false/>
+	<key>ShowNewOutputIndicator</key>
+	<false/>
+	<key>TabStyleWithAutomaticOption</key>
+	<integer>1</integer>
+	<key>WindowNumber</key>
+	<false/>
 	<key>iTerm Version</key>
-	<string>3.2.5</string>
+	<string>3.2.7</string>
 </dict>
 </plist>

@@ -66,16 +66,12 @@ alias treea="tree -a -L 2 -C --dirsfirst --noreport"
 alias loadzsh="source ~/.zshrc"
 alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
-alias tmuxc="vim ~/.tmux.conf"
 
 # homebrew
 alias bu="brew update"
 alias bo="brew outdated && brew cask outdated"
 alias bug="brew upgrade && brew cask upgrade"
 alias bc="brew cleanup"
-
-# asdf
-source /usr/local/opt/asdf/asdf.sh
 
 # tmux
 alias tmuxn="tmux new -s"
@@ -102,7 +98,6 @@ export ERL_AFLAGS="-kernel shell_history enabled"
 # postgresql
 alias pgs="pg_ctl -D /usr/local/var/postgres start"
 alias pgq="pg_ctl -D /usr/local/var/postgres stop"
-export PATH="/usr/local/opt/postgresql@9.4/bin:$PATH"
 
 # zsh packages
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
