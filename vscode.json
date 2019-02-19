@@ -1,4 +1,5 @@
 {
+    "csv-preview.capitalizeHeaders": false,
     "editor.cursorBlinking": "solid",
     "editor.cursorStyle": "block",
     "editor.fontFamily": "Inconsolata",
@@ -12,6 +13,7 @@
     "editor.trimAutoWhitespace": true,
     "editor.wordBasedSuggestions": true,
     "elixirLS.dialyzerEnabled": false,
+    "elixirLS.fetchDeps": false,
     "elixirLS.suggestSpecs": false,
     "files.exclude": {
         "**/.elixir_ls": true
