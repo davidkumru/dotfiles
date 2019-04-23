@@ -1,9 +1,7 @@
 {
-    "csv-preview.capitalizeHeaders": false,
     "editor.cursorBlinking": "solid",
     "editor.cursorStyle": "block",
-    "editor.fontFamily": "Inconsolata",
-    "editor.fontSize": 16,
+    "editor.fontSize": 14,
     "editor.formatOnSave": true,
     "editor.glyphMargin": false,
     "editor.minimap.enabled": false,
@@ -24,11 +22,10 @@
     "search.quickOpen.includeHistory": false,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontSize": 14,
     "vim.cursorStylePerMode.insert": "line",
     "vim.easymotion": true,
     "vim.easymotionKeys": "rfvedcwsxqaz",
-    "vim.easymotionMarkerFontFamily": "Inconsolata",
     "vim.leader": "space",
     "vim.normalModeKeyBindings": [
         {
