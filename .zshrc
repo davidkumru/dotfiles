@@ -33,8 +33,6 @@ vcs_info_wrapper() {
 RPROMPT=$'$(vcs_info_wrapper)'
 
 # options
-# export TERM="xterm-256color"
-# export KEYTIMEOUT=1
 setopt autocd
 setopt histignoredups
 setopt noclobber
@@ -62,11 +60,6 @@ cd() { builtin cd "$@" && ls; }
 alias tree="tree -L 2 -C --dirsfirst --noreport"
 alias treea="tree -a -L 2 -C --dirsfirst --noreport"
 
-# dotfiles
-alias loadzsh="source ~/.zshrc"
-alias zshrc="vim ~/.zshrc"
-alias vimrc="vim ~/.vimrc"
-
 # homebrew
 alias bu="brew update"
 alias bo="brew outdated && brew cask outdated"
@@ -88,6 +81,10 @@ alias gdc="git diff --cached"
 alias gdl="git diff HEAD^ HEAD"
 alias ga="git add -p"
 alias gc="git commit -m"
+
+# docker
+alias dr="docker"
+alias dc="docker-compose"
 
 # elixir
 alias ps="iex -S mix phx.server"
