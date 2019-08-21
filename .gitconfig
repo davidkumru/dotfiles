@@ -1,8 +1,6 @@
 [user]
   name = David Kumru
   email = davidkumru@gmail.com
-[push]
-  default = simple
 [core]
   editor = /usr/local/bin/vim
   excludesfile = ~/.gitignore

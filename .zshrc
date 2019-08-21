@@ -85,6 +85,7 @@ alias gc="git commit -m"
 # docker
 alias dr="docker"
 alias dc="docker-compose"
+alias dsp="docker system prune -a --volumes"
 
 # elixir
 alias ps="iex -S mix phx.server"
