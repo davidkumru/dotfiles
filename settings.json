@@ -70,7 +70,7 @@
             ]
         }
     ],
-    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.colorTheme": "Vim Hybrid Theme",
     "workbench.editor.enablePreview": false,
     "workbench.startupEditor": "none",
     "workbench.tips.enabled": false
