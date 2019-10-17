@@ -287,7 +287,7 @@
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
 	<string>240 267 799 448 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>153 171 665 467 0 0 1280 777 </string>
+	<string>165 224 665 467 0 0 1280 777 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -940,15 +940,17 @@
 	<key>NoSyncInstallationId</key>
 	<string>19E608EF-4E63-4330-9812-CA96B24F3019</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>22</integer>
+	<integer>38</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
-	<real>592695303.31432605</real>
+	<real>592853998.39373195</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
 	<true/>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
 	<key>NoSyncRecordedVariables</key>
 	<dict>
 		<key>0</key>
@@ -1623,6 +1625,10 @@
 			</dict>
 		</array>
 	</dict>
+	<key>NoSyncSearchHistory2</key>
+	<array>
+		<string>clean</string>
+	</array>
 	<key>NoSyncTipOfTheDayEligibilityBeganTime</key>
 	<real>592522503.31389403</real>
 	<key>OnlyWhenMoreTabs</key>
@@ -1673,7 +1679,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-10-11T21:36:09Z</date>
+	<date>2019-10-17T17:50:38Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowNewOutputIndicator</key>
@@ -1686,6 +1692,8 @@
 	<false/>
 	<key>WindowNumber</key>
 	<false/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>iTerm Version</key>
 	<string>3.3.6</string>
 </dict>

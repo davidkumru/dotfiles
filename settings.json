@@ -70,7 +70,12 @@
             ]
         }
     ],
-    "workbench.colorTheme": "Vim Hybrid Theme",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#000000",
+        "editorGroupHeader.tabsBackground": "#000000",
+        "statusBar.background": "#000000"
+    },
+    "workbench.colorTheme": "Jellybeans",
     "workbench.editor.enablePreview": false,
     "workbench.startupEditor": "none",
     "workbench.tips.enabled": false
