@@ -66,12 +66,6 @@ alias bo="brew outdated && brew cask outdated"
 alias bug="brew upgrade && brew cask upgrade"
 alias bc="brew cleanup"
 
-# tmux
-alias tmuxn="tmux new -s"
-alias tmuxa="tmux a -t"
-alias tmuxl="tmux ls"
-alias tmuxk="tmux kill-session -t"
-
 # git
 alias gs="git status"
 alias gp="git pull"
@@ -96,7 +90,3 @@ export ERL_AFLAGS="-kernel shell_history enabled"
 # postgresql
 alias pgs="pg_ctl -D /usr/local/var/postgres start"
 alias pgq="pg_ctl -D /usr/local/var/postgres stop"
-
-# zsh packages
-ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
