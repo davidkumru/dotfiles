@@ -2,8 +2,7 @@
 
 dir=~/dotfiles
 olddir=~/.dotfiles_old
-
-files=".zshrc .gitconfig .gitignore"
+files=".gitconfig .gitignore .zshrc"
 
 echo "Creating $olddir"
 mkdir -p $olddir
