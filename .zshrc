@@ -81,6 +81,9 @@ alias dr="docker"
 alias dc="docker-compose"
 alias dsp="docker system prune -a --volumes"
 
+# terraform
+alias tf="terraform"
+
 # elixir
 alias ps="iex -S mix phx.server"
 alias tw="mix test.watch"
