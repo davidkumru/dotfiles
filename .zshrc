@@ -81,6 +81,9 @@ alias dr="docker"
 alias dc="docker-compose"
 alias dsp="docker system prune -a --volumes"
 
+# kubernetes
+alias kc="kubectl"
+
 # terraform
 alias tf="terraform"
 

@@ -24,6 +24,7 @@
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "terminal.integrated.fontSize": 14,
+    "terraform.codelens.enabled": false,
     "vim.easymotion": true,
     "vim.easymotionKeys": "rfvedcwsxqaz",
     "vim.leader": "space",
@@ -77,6 +78,5 @@
     "workbench.colorTheme": "Jellybeans",
     "workbench.editor.enablePreview": false,
     "workbench.startupEditor": "none",
-    "workbench.tips.enabled": false,
-    "terraform.codelens.enabled": false
+    "workbench.tips.enabled": false
 }
