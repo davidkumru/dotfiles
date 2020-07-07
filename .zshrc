@@ -87,10 +87,14 @@ alias kc="kubectl"
 # terraform
 alias tf="terraform"
 
+# rust
+alias ru="rustup update"
+
 # elixir
 alias ps="iex -S mix phx.server"
 alias tw="mix test.watch"
 alias tws="mix test.watch --stale"
+alias mc="mix clean --deps && mix deps.clean --all"
 export ERL_AFLAGS="-kernel shell_history enabled"
 
 # postgresql
