@@ -88,6 +88,7 @@ alias kc="kubectl"
 alias tf="terraform"
 
 # rust
+alias cr="cargo run"
 alias ru="rustup update"
 
 # elixir

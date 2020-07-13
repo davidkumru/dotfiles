@@ -15,7 +15,10 @@
     "elixirLS.fetchDeps": false,
     "elixirLS.suggestSpecs": false,
     "files.exclude": {
-        "**/.elixir_ls": true
+        "**/.elixir_ls": true,
+        "**/_build": true,
+        "**/deps": true,
+        "**/node_modules": true
     },
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
