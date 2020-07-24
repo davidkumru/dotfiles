@@ -26,7 +26,6 @@ vcs_info_wrapper() {
   fi
 }
 
-ZLE_RPROMPT_INDENT=-1
 RPROMPT=$'$(vcs_info_wrapper)'
 
 # options
@@ -82,7 +81,9 @@ alias dsp="docker system prune -a --volumes"
 alias kc="kubectl"
 
 # terraform
-alias tf="terraform"
+alias tfv="terraform fmt && terraform validate"
+alias tfa="terraform apply"
+alias tfd="terraform destroy"
 
 # rust
 alias cr="cargo run"
