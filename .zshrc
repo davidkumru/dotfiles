@@ -58,8 +58,8 @@ alias treea="tree -a -L 2 -C --dirsfirst --noreport"
 
 # homebrew
 alias bu="brew update"
-alias bo="brew outdated && brew cask outdated"
-alias bug="brew upgrade && brew cask upgrade"
+alias bo="brew outdated"
+alias bug="brew upgrade"
 alias bc="brew cleanup"
 
 # git
@@ -95,6 +95,11 @@ alias tw="mix test.watch"
 alias tws="mix test.watch --stale"
 alias mc="mix clean --deps && mix deps.clean --all"
 export ERL_AFLAGS="-kernel shell_history enabled"
+
+# node
+alias nps="npm start"
+alias npl="npm list -g --depth=0"
+alias npu="npm install -g npm"
 
 # postgresql
 alias pgs="pg_ctl -D /usr/local/var/postgres start"
