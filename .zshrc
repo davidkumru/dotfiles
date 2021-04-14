@@ -77,9 +77,6 @@ alias dr="docker"
 alias dc="docker-compose"
 alias dsp="docker system prune -a --volumes"
 
-# kubernetes
-alias kc="kubectl"
-
 # terraform
 alias tfv="terraform fmt && terraform validate"
 alias tfa="terraform apply"
@@ -95,12 +92,3 @@ alias tw="mix test.watch"
 alias tws="mix test.watch --stale"
 alias mc="mix clean --deps && mix deps.clean --all"
 export ERL_AFLAGS="-kernel shell_history enabled"
-
-# node
-alias nps="npm start"
-alias npl="npm list -g --depth=0"
-alias npu="npm install -g npm"
-
-# postgresql
-alias pgs="pg_ctl -D /usr/local/var/postgres start"
-alias pgq="pg_ctl -D /usr/local/var/postgres stop"

@@ -1,5 +1,6 @@
 {
     "breadcrumbs.enabled": false,
+    "docker.showStartPage": false,
     "editor.cursorBlinking": "solid",
     "editor.folding": false,
     "editor.fontSize": 14,
@@ -15,6 +16,7 @@
     "editor.wordBasedSuggestions": true,
     "elixirLS.dialyzerEnabled": false,
     "elixirLS.fetchDeps": false,
+    "elixirLS.mixEnv": "dev",
     "elixirLS.suggestSpecs": false,
     "files.exclude": {
         "**/.elixir_ls": true,
@@ -82,5 +84,6 @@
     },
     "workbench.editor.enablePreview": false,
     "workbench.startupEditor": "none",
-    "workbench.tips.enabled": false
+    "workbench.tips.enabled": false,
+    "yaml.schemaStore.enable": false
 }
