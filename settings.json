@@ -27,6 +27,7 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
+    "redhat.telemetry.enabled": false,
     "rust-analyzer.lens.enable": false,
     "search.quickOpen.includeHistory": false,
     "telemetry.enableCrashReporter": false,

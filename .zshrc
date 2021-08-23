@@ -92,3 +92,7 @@ alias tw="mix test.watch"
 alias tws="mix test.watch --stale"
 alias mc="mix clean --deps && mix deps.clean --all"
 export ERL_AFLAGS="-kernel shell_history enabled"
+
+# node
+alias npl="npm list -g --depth=0"
+alias npu="npm install -g npm"
