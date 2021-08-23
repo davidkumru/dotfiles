@@ -91,6 +91,7 @@ alias ps="iex -S mix phx.server"
 alias tw="mix test.watch"
 alias tws="mix test.watch --stale"
 alias mc="mix clean --deps && mix deps.clean --all"
+alias mu="mix local.hex --force && mix local.phx --force"
 export ERL_AFLAGS="-kernel shell_history enabled"
 
 # node
