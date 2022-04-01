@@ -21,6 +21,7 @@
     "extensions.ignoreRecommendations": true,
     "files.exclude": {
         "**/.elixir_ls": true,
+        "**/.terraform": true,
         "**/_build": true,
         "**/deps": true,
         "**/node_modules": true
