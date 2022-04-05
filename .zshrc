@@ -53,8 +53,6 @@ alias u="cd .."
 alias p="cd -"
 alias :q="exit"
 cd() { builtin cd "$@" && ls; }
-alias tree="tree -L 2 -C --dirsfirst --noreport"
-alias treea="tree -a -L 2 -C --dirsfirst --noreport"
 
 # homebrew
 alias bu="brew update"
