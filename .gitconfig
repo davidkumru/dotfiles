@@ -2,7 +2,7 @@
   name = David Kumru
   email = davidkumru@gmail.com
 [core]
-  editor = /usr/local/bin/code
+  editor = /opt/homebrew/bin/code
   excludesfile = ~/.gitignore
 [pull]
   rebase = false
