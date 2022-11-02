@@ -6,6 +6,7 @@
     "editor.formatOnSave": true,
     "editor.glyphMargin": false,
     "editor.guides.indentation": false,
+    "editor.inlayHints.enabled": "offUnlessPressed",
     "editor.minimap.enabled": false,
     "editor.overviewRulerBorder": false,
     "editor.renderLineHighlight": "none",
@@ -83,6 +84,7 @@
         "editorGroupHeader.tabsBackground": "#000000",
         "statusBar.background": "#000000"
     },
+    "workbench.colorTheme": "Alabaster Dark",
     "workbench.editor.enablePreview": false,
     "workbench.startupEditor": "none",
     "workbench.tips.enabled": false,
