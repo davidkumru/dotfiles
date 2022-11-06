@@ -24,7 +24,8 @@
         "**/.terraform": true,
         "**/_build": true,
         "**/deps": true,
-        "**/node_modules": true
+        "**/node_modules": true,
+        "**/target": true
     },
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
@@ -34,6 +35,8 @@
     "search.quickOpen.includeHistory": false,
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.fontSize": 14,
+    "terminal.integrated.showExitAlert": false,
+    "terminal.integrated.tabs.enabled": false,
     "vim.easymotion": true,
     "vim.easymotionKeys": "rfvedcwsxqaz",
     "vim.leader": "space",
@@ -86,6 +89,7 @@
     },
     "workbench.colorTheme": "Alabaster Dark",
     "workbench.editor.enablePreview": false,
+    "workbench.layoutControl.enabled": false,
     "workbench.startupEditor": "none",
     "workbench.tips.enabled": false,
     "yaml.schemaStore.enable": false

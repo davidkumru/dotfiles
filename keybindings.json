@@ -24,16 +24,16 @@
         "command": "workbench.action.splitEditorDown"
     },
     {
+        "key": "cmd+t",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
         "key": "cmd+e",
         "command": "workbench.view.explorer"
     },
     {
         "key": "cmd+g",
         "command": "workbench.view.scm"
-    },
-    {
-        "key": "cmd+t",
-        "command": "workbench.action.terminal.toggleTerminal"
     },
     {
         "key": "alt+l",
