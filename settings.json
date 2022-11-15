@@ -36,7 +36,6 @@
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.showExitAlert": false,
-    "terminal.integrated.tabs.enabled": false,
     "vim.easymotion": true,
     "vim.easymotionKeys": "rfvedcwsxqaz",
     "vim.leader": "space",
