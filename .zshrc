@@ -119,7 +119,7 @@ alias bc="brew cleanup"
 # Git
 alias gs="git status"
 alias gp="git pull"
-alias gb="git checkout"
+alias gb="git switch"
 alias gd="git diff"
 alias gdc="git diff --cached"
 alias gdl="git diff HEAD^ HEAD"
