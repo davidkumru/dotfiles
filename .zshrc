@@ -128,7 +128,7 @@ alias gc="git commit -m"
 
 # Docker
 alias dr="docker"
-alias drl="docker container ls -a && docker image ls -a && docker volume ls"
+alias drl="docker image ls -a && docker container ls -a && docker volume ls"
 alias dc="docker compose"
 alias dsp="docker system prune -a --volumes"
 
