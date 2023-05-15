@@ -31,11 +31,11 @@
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "redhat.telemetry.enabled": false,
-    "rust-analyzer.lens.enable": false,
     "search.quickOpen.includeHistory": false,
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.showExitAlert": false,
+    "terminal.integrated.tabs.enabled": false,
     "vim.easymotion": true,
     "vim.easymotionKeys": "rfvedcwsxqaz",
     "vim.leader": "space",
@@ -84,9 +84,9 @@
     "workbench.colorCustomizations": {
         "activityBar.background": "#000000",
         "editorGroupHeader.tabsBackground": "#000000",
-        "statusBar.background": "#000000"
+        "statusBar.background": "#000000",
+        "statusBar.noFolderBackground": "#000000"
     },
-    "workbench.colorTheme": "Alabaster Dark",
     "workbench.editor.enablePreview": false,
     "workbench.layoutControl.enabled": false,
     "workbench.startupEditor": "none",
