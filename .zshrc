@@ -137,10 +137,6 @@ alias tfv="terraform fmt && terraform validate"
 alias tfa="terraform apply"
 alias tfd="terraform destroy"
 
-# Rust
-alias cr="cargo run"
-alias ru="rustup update"
-
 # Elixir
 alias ps="iex -S mix phx.server"
 alias tw="mix test.watch"
