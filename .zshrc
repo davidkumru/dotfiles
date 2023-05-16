@@ -115,6 +115,7 @@ alias bu="brew update"
 alias bo="brew outdated"
 alias bug="brew upgrade"
 alias bc="brew cleanup"
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Git
 alias gs="git status"
