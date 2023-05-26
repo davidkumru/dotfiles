@@ -6,31 +6,26 @@
     "editor.formatOnSave": true,
     "editor.glyphMargin": false,
     "editor.guides.indentation": false,
-    "editor.inlayHints.enabled": "offUnlessPressed",
     "editor.minimap.enabled": false,
     "editor.overviewRulerBorder": false,
     "editor.renderLineHighlight": "none",
     "editor.renderWhitespace": "none",
-    "editor.roundedSelection": false,
     "editor.trimAutoWhitespace": true,
-    "editor.wordBasedSuggestions": true,
     "elixirLS.dialyzerEnabled": false,
     "elixirLS.fetchDeps": false,
     "elixirLS.mixEnv": "dev",
     "elixirLS.suggestSpecs": false,
     "extensions.ignoreRecommendations": true,
     "files.exclude": {
+        "**/_build": true,
         "**/.elixir_ls": true,
         "**/.terraform": true,
-        "**/_build": true,
         "**/deps": true,
-        "**/node_modules": true,
-        "**/target": true
+        "**/node_modules": true
     },
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "redhat.telemetry.enabled": false,
     "search.quickOpen.includeHistory": false,
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.fontSize": 14,
@@ -90,6 +85,5 @@
     "workbench.editor.enablePreview": false,
     "workbench.layoutControl.enabled": false,
     "workbench.startupEditor": "none",
-    "workbench.tips.enabled": false,
-    "yaml.schemaStore.enable": false
+    "workbench.tips.enabled": false
 }
