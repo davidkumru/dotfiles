@@ -4,6 +4,8 @@
 [core]
   editor = /opt/homebrew/bin/code
   excludesfile = ~/.gitignore
+[init]
+  defaultBranch = main
 [pull]
   rebase = false
 [push]
