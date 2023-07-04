@@ -10,6 +10,7 @@
     "editor.overviewRulerBorder": false,
     "editor.renderLineHighlight": "none",
     "editor.renderWhitespace": "none",
+    "editor.roundedSelection": false,
     "editor.trimAutoWhitespace": true,
     "elixirLS.dialyzerEnabled": false,
     "elixirLS.fetchDeps": false,
