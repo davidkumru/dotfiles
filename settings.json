@@ -17,13 +17,6 @@
     "elixirLS.mixEnv": "dev",
     "elixirLS.suggestSpecs": false,
     "extensions.ignoreRecommendations": true,
-    "files.exclude": {
-        "**/_build": true,
-        "**/.elixir_ls": true,
-        "**/.terraform": true,
-        "**/deps": true,
-        "**/node_modules": true
-    },
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
@@ -85,6 +78,7 @@
         "statusBar.background": "#000000",
         "statusBar.noFolderBackground": "#000000"
     },
+    "workbench.colorTheme": "Gruvbox Dark Hard",
     "workbench.editor.enablePreview": false,
     "workbench.layoutControl.enabled": false,
     "workbench.startupEditor": "none",

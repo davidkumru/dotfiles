@@ -213,7 +213,7 @@
 	<key>ShowRepresentedURLPathInTitle</key>
 	<false/>
 	<key>ShowShellCommandInTitle</key>
-	<true/>
+	<false/>
 	<key>ShowTTYNameInTitle</key>
 	<false/>
 	<key>ShowWindowSettingsNameInTitle</key>
@@ -239,7 +239,7 @@
 	<key>UseBoldFonts</key>
 	<true/>
 	<key>UseBrightBold</key>
-	<false/>
+	<true/>
 	<key>name</key>
 	<string>Gruvbox</string>
 	<key>shellExitAction</key>

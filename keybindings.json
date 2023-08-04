@@ -24,6 +24,14 @@
         "command": "workbench.action.splitEditorDown"
     },
     {
+        "key": "cmd+[",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "cmd+]",
+        "command": "workbench.action.navigateForward"
+    },
+    {
         "key": "cmd+t",
         "command": "workbench.action.terminal.toggleTerminal"
     },
