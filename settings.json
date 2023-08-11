@@ -13,7 +13,6 @@
     "editor.roundedSelection": false,
     "editor.trimAutoWhitespace": true,
     "elixirLS.dialyzerEnabled": false,
-    "elixirLS.fetchDeps": false,
     "elixirLS.mixEnv": "dev",
     "elixirLS.suggestSpecs": false,
     "extensions.ignoreRecommendations": true,
