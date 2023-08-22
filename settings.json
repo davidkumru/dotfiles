@@ -21,6 +21,7 @@
     "files.trimTrailingWhitespace": true,
     "git.autofetch": true,
     "git.confirmSync": false,
+    "git.openRepositoryInParentFolders": "always",
     "search.quickOpen.includeHistory": false,
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.fontSize": 14,
