@@ -25,6 +25,7 @@
     "search.quickOpen.includeHistory": false,
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.fontSize": 14,
+    "terminal.integrated.scrollback": 10000,
     "terminal.integrated.showExitAlert": false,
     "terminal.integrated.tabs.enabled": false,
     "vim.easymotion": true,
