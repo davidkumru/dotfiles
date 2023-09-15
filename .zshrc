@@ -142,6 +142,9 @@ alias tfv="terraform fmt && terraform validate"
 alias tfa="terraform apply"
 alias tfd="terraform destroy"
 
+# PostgreSQL
+export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
+
 # Elixir
 alias ps="iex -S mix phx.server"
 alias tw="mix test.watch"

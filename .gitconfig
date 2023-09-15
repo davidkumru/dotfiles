@@ -7,6 +7,11 @@
 [init]
   defaultBranch = main
 [pull]
-  rebase = false
+  rebase = true
 [push]
   autosetupremote = true
+[filter "lfs"]
+  required = true
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
