@@ -111,6 +111,7 @@ alias :q="exit"
 cd() { builtin cd "$@" && ls; }
 
 # Homebrew
+alias bl="brew leaves && echo && brew list --cask"
 alias bu="brew update"
 alias bo="brew outdated"
 alias bug="brew upgrade"
@@ -146,11 +147,9 @@ alias tfd="terraform destroy"
 export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 
 # Elixir
-alias ps="iex -S mix phx.server"
-alias tw="mix test.watch"
-alias tws="mix test.watch --stale"
-alias mc="mix clean --deps && mix deps.clean --all"
+alias ml="mix archive"
 alias mu="mix local.hex --force && mix local.phx --force"
+alias mc="mix clean --deps && mix deps.clean --all"
 export ERL_AFLAGS="-kernel shell_history enabled"
 
 # Node
