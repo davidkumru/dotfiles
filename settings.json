@@ -2,6 +2,7 @@
     "breadcrumbs.enabled": false,
     "editor.cursorBlinking": "solid",
     "editor.folding": false,
+    "editor.fontFamily": "JetBrains Mono",
     "editor.fontSize": 14,
     "editor.formatOnSave": true,
     "editor.glyphMargin": false,
