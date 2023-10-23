@@ -5,7 +5,6 @@
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontSize": 14,
     "editor.formatOnSave": true,
-    "editor.glyphMargin": false,
     "editor.guides.indentation": false,
     "editor.minimap.enabled": false,
     "editor.overviewRulerBorder": false,
