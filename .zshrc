@@ -144,7 +144,7 @@ alias tfa="terraform apply"
 alias tfd="terraform destroy"
 
 # PostgreSQL
-export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
+export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
 
 # Elixir
 alias ml="mix archive"
