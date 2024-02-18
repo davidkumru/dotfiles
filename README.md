@@ -1,4 +1,4 @@
-## dotfiles
+# dotfiles
 
 Edit the `make_symlinks.sh` script to include your configuration files and destination directories.
 
