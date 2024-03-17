@@ -1,5 +1,6 @@
 {
     "breadcrumbs.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false,
     "editor.cursorBlinking": "solid",
     "editor.folding": false,
     "editor.fontFamily": "JetBrains Mono",
@@ -11,6 +12,7 @@
     "editor.renderLineHighlight": "none",
     "editor.renderWhitespace": "none",
     "editor.roundedSelection": false,
+    "editor.stickyScroll.enabled": false,
     "editor.trimAutoWhitespace": true,
     "elixirLS.dialyzerEnabled": false,
     "elixirLS.mixEnv": "dev",
@@ -75,13 +77,6 @@
         }
     ],
     "window.commandCenter": false,
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#000000",
-        "editorGroupHeader.tabsBackground": "#000000",
-        "statusBar.background": "#000000",
-        "statusBar.noFolderBackground": "#000000"
-    },
-    "workbench.colorTheme": "Gruvbox Dark Hard",
     "workbench.editor.empty.hint": "hidden",
     "workbench.editor.enablePreview": false,
     "workbench.layoutControl.enabled": false,
