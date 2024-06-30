@@ -81,5 +81,9 @@
     {
         "key": "ctrl+r",
         "command": "-workbench.action.openRecent"
+    },
+    {
+        "key": "shift shift",
+        "command": "workbench.action.quickTextSearch"
     }
 ]
