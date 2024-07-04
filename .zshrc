@@ -152,6 +152,6 @@ alias mu="mix local.hex --force && mix local.phx --force"
 alias mc="mix clean --deps && mix deps.clean --all"
 export ERL_AFLAGS="-kernel shell_history enabled"
 
-# Node
+# JavaScript
 alias npl="npm list -g --depth=0"
 alias npu="npm install -g npm"

@@ -78,6 +78,7 @@
         }
     ],
     "window.commandCenter": false,
+    "workbench.colorTheme": "Default Light Modern",
     "workbench.editor.empty.hint": "hidden",
     "workbench.editor.enablePreview": false,
     "workbench.layoutControl.enabled": false,
