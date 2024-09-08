@@ -1,0 +1,33 @@
+{
+    "case": {
+        "prefix": "case",
+        "body": [
+            "case $1 do",
+            "  $2 ->",
+            "    $3",
+            "  _ ->",
+            "    $4",
+            "end"
+        ]
+    },
+    "with": {
+        "prefix": "with",
+        "body": [
+            "with {:action, result} <- {:action, $1},",
+            "     {:action, result} <- {:action, nil} do",
+            "  {:ok, result}",
+            "else",
+            "  {:error, reason} ->",
+            "    {:error, reason}",
+            "end"
+        ]
+    },
+    "Apex.ap()": {
+        "prefix": "ap",
+        "body": "Apex.ap($1)$0"
+    },
+    "TODO": {
+        "prefix": "todo",
+        "body": "# TODO: $1"
+    }
+}

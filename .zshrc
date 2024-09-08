@@ -120,6 +120,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Git
 alias gs="git status"
+alias gf="git fetch"
 alias gp="git pull"
 alias gsw="git switch"
 alias gch="git checkout"
@@ -142,6 +143,10 @@ alias dsp="docker system prune -a --volumes"
 alias tfv="terraform fmt && terraform validate"
 alias tfa="terraform apply"
 alias tfd="terraform destroy"
+
+# Kubernetes
+alias ki="kind"
+alias kc="kubectl"
 
 # PostgreSQL
 export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"

@@ -19,6 +19,12 @@
     "elixirLS.suggestSpecs": false,
     "explorer.excludeGitIgnore": true,
     "extensions.ignoreRecommendations": true,
+    "files.exclude": {
+        "**/_build": true,
+        "**/.elixir_ls": true,
+        "**/cover": true,
+        "**/deps": true
+    },
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
