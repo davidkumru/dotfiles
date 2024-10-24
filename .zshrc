@@ -129,7 +129,7 @@ alias gdc="git diff --cached"
 alias gdl="git diff HEAD^ HEAD"
 alias gt="git stash -um"
 alias gtl="git stash list"
-alias gtp="git stash pop"
+alias gtp="git stash pop --index"
 alias ga="git add -p"
 alias gc="git commit -m"
 
@@ -150,6 +150,9 @@ alias kc="kubectl"
 
 # PostgreSQL
 export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
+
+# MySQL
+export PATH="/opt/homebrew/opt/mysql-client@5.7/bin:$PATH"
 
 # Elixir
 alias ml="mix archive"
