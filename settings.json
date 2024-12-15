@@ -1,7 +1,7 @@
 {
     "breadcrumbs.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false,
     "editor.cursorBlinking": "solid",
-    "editor.folding": false,
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontSize": 14,
     "editor.formatOnSave": true,
@@ -29,6 +29,11 @@
     "git.autofetch": true,
     "git.confirmSync": false,
     "git.openRepositoryInParentFolders": "always",
+    "markdownlint.config": {
+        "MD024": {
+            "siblings_only": true
+        }
+    },
     "search.quickOpen.includeHistory": false,
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.defaultLocation": "editor",
@@ -82,6 +87,9 @@
         }
     ],
     "window.commandCenter": false,
+    "workbench.editor.autoLockGroups": {
+        "terminalEditor": false
+    },
     "workbench.editor.empty.hint": "hidden",
     "workbench.editor.enablePreview": false,
     "workbench.layoutControl.enabled": false,
@@ -93,22 +101,27 @@
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[vue]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+        "editor.quickSuggestions": {
+            "comments": false,
+            "other": true,
+            "strings": false
+        }
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "[yaml]": {
         "editor.defaultFormatter": "redhat.vscode-yaml"
-    },
-    "[markdown]": {
-        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
     }
 }

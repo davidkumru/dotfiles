@@ -132,12 +132,16 @@ alias gtl="git stash list"
 alias gtp="git stash pop --index"
 alias ga="git add -p"
 alias gc="git commit -m"
+alias gca="git commit --amend --no-edit"
+alias gcm="git commit --amend -m"
+alias lg="lazygit"
 
 # Docker
 alias dr="docker"
 alias drl="docker image ls -a && echo && docker container ls -a && echo && docker volume ls"
 alias dc="docker compose"
 alias dsp="docker system prune -a --volumes"
+export COMPOSE_MENU=0
 
 # Terraform
 alias tfv="terraform fmt && terraform validate"
