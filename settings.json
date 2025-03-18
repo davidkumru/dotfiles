@@ -1,5 +1,6 @@
 {
     "breadcrumbs.enabled": false,
+    "chat.commandCenter.enabled": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.cursorBlinking": "solid",
     "editor.folding": false,
