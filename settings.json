@@ -35,7 +35,6 @@
     "github.copilot.enable": {
         "markdown": true
     },
-    "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
     "markdownlint.config": {
         "MD024": {
             "siblings_only": true
