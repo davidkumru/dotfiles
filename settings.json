@@ -32,6 +32,7 @@
     "git.confirmSync": false,
     "git.openRepositoryInParentFolders": "always",
     "github.copilot.chat.followUps": "never",
+    "github.copilot.editor.enableCodeActions": false,
     "github.copilot.enable": {
         "markdown": true
     },
